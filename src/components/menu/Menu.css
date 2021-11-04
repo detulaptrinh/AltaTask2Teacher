@@ -1,0 +1,97 @@
+.menu-component {
+    position: relative;
+    position: fixed;
+    width: 112px;
+    height: 1080px;
+
+    background: linear-gradient(359.43deg, #FF5400 2.1%, #F17F21 98.52%);
+    box-shadow: 4px 4px 15px rgba(122, 176, 225, 0.25);
+}
+
+.menu-component .active {
+    border-radius: 1.6rem;
+    background-color: #ffb87e;
+}
+
+.menu-component .menu-vector {
+    padding: 58px 19px;
+}
+
+#menu ul {
+    padding: 0;
+    list-style-type: none;
+    margin-left: 1.6rem;
+}
+
+#menu ul li {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1.6rem;
+    line-height: 8rem;
+    text-align: center;
+}
+
+#menu ul li a {
+    text-decoration: none;
+}
+
+.sub-menu {
+    position: absolute;
+    width: 25.8rem;
+    height: 108rem;
+    top: 0;
+    left: 11.2rem;
+    box-shadow: 4px 4px 10px rgba(133, 178, 220, 0.25);
+    background: #ffffff;
+    font-family: 'Mulish', sans-serif;
+
+    left: -27rem;
+    transition: .5s;
+}
+
+.sub-menu>ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 6.6rem;
+    margin-top: 18.6rem;
+}
+
+.sub-menu>ul>li:not(:first-child) {
+    margin-top: 4.2rem;
+}
+
+.sub-menu>ul>li>p>a {
+    color: #373839;
+}
+
+.sub-menu>ul>li>p {
+    color: #373839;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    margin: 0;
+    cursor: context-menu;
+}
+
+.sub-menu-1 {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.sub-menu-1 li {
+    margin-top: 2.9rem;
+}
+
+.sub-menu-1 li a {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #373839;
+}
+
+.menu-component:hover .sub-menu {
+    left: 11.2rem;
+}
