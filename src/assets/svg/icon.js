@@ -6,7 +6,9 @@ import CommentQuestion from "./comment-question.svg";
 import Eyes from "./eyes.svg";
 import FileEditAlt from "./file-edit-alt.svg";
 import Vector from "./vector.svg";
-
+import EyesTeacher from "./fi_eye_teacher.svg"
+import MessageTeacher from "./u_message.svg"
+import PaperclipTeacher from "./u_paperclip.svg"
 // icon top bar user
 import UserCircle from "./user_circle.svg"
 
@@ -18,5 +20,9 @@ export {
     Eyes,
     FileEditAlt,
     Vector,
-    UserCircle
+    UserCircle,
+    EyesTeacher,
+    MessageTeacher,
+    PaperclipTeacher
+
 };
