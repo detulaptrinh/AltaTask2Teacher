@@ -12,7 +12,7 @@ import {
     Eyes,
     FileEditAlt,
     Vector
-} from "../../assets/svg/icon"
+} from "../../assets/svg/icon.js"
 
 export default class Menu extends Component {
     render() {

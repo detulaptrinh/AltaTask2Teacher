@@ -4,7 +4,7 @@
     position: fixed;
     width: 112px;
     height: 1080px;
-
+    z-index: 999;
     background: linear-gradient(359.43deg, #FF5400 2.1%, #F17F21 98.52%);
     box-shadow: 4px 4px 15px rgba(122, 176, 225, 0.25);
 }
