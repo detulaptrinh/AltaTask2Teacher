@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import "./App.css";
+
 // componet menu
 import Menu from './components/menu/Menu';
 import TopBarUser from './components/top_bar_user/TopBarUser';
@@ -15,7 +14,7 @@ import JoinClassTeacher from './components/JoinClassTeacher/JoinClassTeacher';
 
 
 import "./App.css"; // css
-
+import Dashboard from './components/Dashboard/Dashboard';
 export default class App extends Component {
     render() {
         return (
@@ -38,6 +37,7 @@ export default class App extends Component {
                                 <JoinClassTeacher />
                                 {/* <Route path="/helpTeacher" component={HelpTeacher} />
                                 <Route path="/joinClass" component={JoinClassTeacher} /> */}
+                                <Route path="/" component={Dashboard} />
                             </main>
                         </div>
                     </div>
