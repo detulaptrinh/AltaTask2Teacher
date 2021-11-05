@@ -8,6 +8,8 @@ import TopBarUser from './components/top_bar_user/TopBarUser';
 
 //Question And Answer Components
 import ChatBody from './components/QuestionAndAnswer/chatBody/ChatBody';
+// component Thông tin lớp học
+import ThongTinLopHoc from './components/Teacher_XemChiTiet_ThongTinLopHoc/ThongTinLopHoc';
 
 import "./App.css"; // css
 
@@ -27,6 +29,9 @@ export default class App extends Component {
                             <TopBarUser />
                             <main>
                             <ChatBody/>
+                                
+                                {/* 5. Thông tin lớp học */}
+                                <ThongTinLopHoc />
                             </main>
                         </div>
                     </div>

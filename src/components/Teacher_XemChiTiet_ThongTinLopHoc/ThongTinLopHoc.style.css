@@ -1,0 +1,10 @@
+.thong-tin-lop-hoc main {
+    width: auto;
+    max-width: 168rem;
+    height: auto;
+    max-height: 72rem;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 25px 4px rgba(154, 202, 245, 0.25);
+    border-radius: 16px;
+    margin-top: 3.2rem;
+}
