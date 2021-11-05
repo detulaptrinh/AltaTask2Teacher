@@ -10,6 +10,8 @@ import Vector from "./vector.svg";
 // icon top bar user
 import UserCircle from "./user_circle.svg"
 
+import IconUpload from "./uploadIcon.svg";
+
 export {
     Bell,
     BookOpen,
@@ -18,5 +20,6 @@ export {
     Eyes,
     FileEditAlt,
     Vector,
-    UserCircle
+    UserCircle,
+    IconUpload
 };
