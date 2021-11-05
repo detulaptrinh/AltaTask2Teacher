@@ -1,0 +1,300 @@
+.title {
+    height: 6rem;
+    line-height: 6rem;
+    letter-spacing: 0.015em;
+    display: flex;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+}
+
+.title span {
+    font-size: 1.8rem;
+    color: #C9C4C0;
+}
+
+.title i {
+    font-size: 3rem;
+    color: #FF7506;
+    height: 6rem;
+    line-height: 6rem;
+    padding: 0 1rem;
+}
+
+.title_new_test {
+    font-size: 4.8rem;
+    color: #373839;
+}
+
+
+/*  */
+
+.body_new_test {
+    width: 100%;
+    height: 90rem;
+    margin-top: 3.2rem;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 25px 4px rgba(154, 202, 245, 0.25);
+    border-radius: 1.6rem;
+}
+
+.new_test_row {
+    margin-top: 2rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+
+.ant_row_text {
+    height: 4rem;
+    line-height: 4rem;
+    margin: 1.6rem 0;
+}
+
+.text_left {
+    max-width: 15rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #373839;
+}
+
+.text_right {
+    max-width: 62.4rem;
+    height: 3.2rem;
+}
+
+.text_right_input {
+    width: 62.4rem;
+    max-width: 62.4rem;
+    height: 3.2rem;
+    background: #FFFFFF;
+    opacity: 0.5;
+    border: 1px solid #C9C4C0;
+    border-radius: 0.4rem;
+}
+
+.text_right_radio {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    color: #373839;
+}
+
+.text_right_select {
+    width: 15rem;
+    background: transparent;
+    /* border: 1px solid #C9C4C0; */
+    box-sizing: border-box;
+    border-radius: 0.4rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    color: #373839;
+}
+
+.text_right_checkbox {
+    margin-left: 2rem;
+}
+
+.text_right_btn {
+    cursor: pointer;
+    margin-right: 1.6rem;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    width: 6.4rem;
+    height: 2.8rem;
+    background: #C9C4C0;
+    opacity: 0.5;
+    border-radius: 1.6rem;
+}
+
+.text_right_btn:hover {
+    background: #2EACEE;
+    color: #fff;
+}
+
+.text_right_select_time_box2,
+.text_right_select_time_box1 {
+    display: inline-flex;
+}
+
+.text_right_select_time_box2 p,
+.text_right_select_time_box1 p {
+    margin-left: 1.6rem;
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 30px;
+    color: #373839;
+}
+
+.text_right_select_time_box2 {
+    margin-left: 5.5rem;
+}
+
+.text_right_select_time {
+    width: 11rem;
+    height: 3.2rem;
+    max-width: 11rem;
+    max-height: 3.2rem;
+    background: #FFFFFF;
+    /* border: 1px solid #C9C4C0; */
+    box-sizing: border-box;
+    border-radius: 0.4rem;
+}
+
+.text_right_classify {
+    width: 15rem;
+    height: 3.2rem;
+    background: #FFFFFF;
+    /* border: 1px solid #C9C4C0; */
+    box-sizing: border-box;
+    border-radius: 0.4rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    color: #373839;
+}
+
+.text_right_datepicker {
+    width: 18rem;
+    height: 3.2rem;
+    background: #FFFFFF;
+    border: 1px solid #C9C4C0;
+    box-sizing: border-box;
+    border-radius: 0.4rem;
+}
+
+.text_right_select_date {
+    margin-left: 2.3rem;
+    width: 11rem;
+    height: 3.2rem;
+    background: #FFFFFF;
+    /* border: 1px solid #C9C4C0; */
+    box-sizing: border-box;
+    border-radius: 0.4rem;
+}
+
+.text_right_input_time {
+    margin-left: 2.3rem;
+    width: 11rem;
+    height: 3.2rem;
+    background: #FFFFFF;
+    border: 1px solid #C9C4C0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.text_right_textarea {
+    width: 62.4rem;
+    height: 8rem;
+    background: #FFFFFF;
+    border: 1px solid #C9C4C0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.text_right_textarea_box2 {
+    display: flex;
+    width: 100%;
+}
+
+.text_right_textarea_box2 p {
+    width: 20%;
+    margin-top: 0.5rem;
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 20px;
+    color: #373839;
+}
+
+.text_right_icon_upload {
+    width: 80%;
+    height: 32px;
+    background: #efefef;
+    border-radius: 0.4rem;
+    border: none;
+}
+
+.text_right_icon_upload img {
+    float: left;
+    margin-left: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid #c9c4c0;
+}
+
+.text_right_checkbox_seting .ant-checkbox-inner {
+    width: 24px;
+    height: 24px;
+}
+
+.text_right_rules p {
+    margin: 0rem;
+}
+
+.text_right_checkbox_rules {
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+}
+
+.text_right_radio_rules {
+    display: flex;
+    flex-direction: column;
+}
+
+.text_right_rules_txt p {
+    margin-top: 1rem;
+    float: right;
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 20px;
+    color: #FF5400;
+}
+
+.button_new_test {
+    margin-top: 4.8rem;
+    margin-bottom: 4.8rem;
+    text-align: center;
+}
+
+.button_new_test_cancel {
+    width: 16rem;
+    height: 5.2rem;
+    background: #F2F2F2;
+    border-radius: 8px;
+    font-family: Mulish;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.015em;
+    color: #373839;
+    border: none;
+}
+
+.button_new_test_save {
+    margin-left: 3.2rem;
+    width: 16rem;
+    height: 5.2rem;
+    background: #FF7506;
+    border-radius: 8px;
+    font-family: Mulish;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+    border: none;
+}
