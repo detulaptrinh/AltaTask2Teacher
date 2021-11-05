@@ -6,7 +6,11 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Menu from './components/menu/Menu';
 import TopBarUser from './components/top_bar_user/TopBarUser';
 
+//Question And Answer Components
+import ChatBody from './components/QuestionAndAnswer/chatBody/ChatBody';
+
 import "./App.css"; // css
+
 export default class App extends Component {
     render() {
         return (
@@ -22,7 +26,7 @@ export default class App extends Component {
                         <div className="app-right">
                             <TopBarUser />
                             <main>
-                                
+                            <ChatBody/>
                             </main>
                         </div>
                     </div>
