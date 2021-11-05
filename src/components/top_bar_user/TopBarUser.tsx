@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import "./TopBarUser.css";
 
-import { UserCircle } from "../../assets/svg/icon";
+import { UserCircle } from "../../assets/svg/icon.js";
 
 export default class TopBarUser extends Component {
     render() {

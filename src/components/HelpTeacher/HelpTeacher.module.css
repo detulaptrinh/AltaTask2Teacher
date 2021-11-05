@@ -1,0 +1,368 @@
+.Col_boxTeacherHelp {
+    width: 1703px;
+    height: 797px;
+    margin-left: 0px;
+    margin-top: 141px;
+    
+    background: #FFFFFF;
+    /* Tab */
+    
+    box-shadow: 4px 4px 25px 4px rgba(154, 202, 245, 0.25);
+    border-radius: 8px;
+
+}
+.Col_boxRightHelpTeacher {
+    position: absolute;
+    width: 280px;
+    height: 797px;
+    left: 1332px;
+    top: 0px;
+    /* /Orange / 5 */
+    background: #CC5C00;
+}
+.Col_boxRightInforHelpTeacher {
+    width: 499px;
+    height: 543px;
+    float: right;
+    background: #FEF3EF;
+    margin-top: -58rem;
+    /* Tab */
+    box-shadow: 4px 4px 25px 4px rgba(154, 202, 245, 0.25);
+    border-radius: 16px 0px 0px 16px;
+}
+.HelpTeacher_Text_Thongtin {
+    width: 134px;
+    height: 35px;
+    margin-left: 72px;
+    padding-top: 10rem;
+    font-style: normal;
+    font-weight: 700;
+    /* LMS Student / H2 */
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.015em;
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+
+.HelpTeacher_Text_Thacmac {
+    /* Bạn có thắc mắc? */
+    width: 522px;
+    height: 60px;
+    padding-left: 5rem;
+    padding-top: 4.313rem;
+    /* LMS Student / H1 */
+
+    font-family: Mulish;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.015em;
+    font-style: normal;
+    font-weight: 800;
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.HelpTeacher_Text_phanhoi {
+   /* Chúng tôi sẽ phản hồi bạn trong thời gian sớm nhất có thể. */
+
+    width: 610px;
+    height: 23px;
+    padding-left: 5rem;
+
+    /* LMS Student / sub-header phụ */
+
+    font-family: Mulish;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+
+    color: #000000;
+
+    opacity: 0.5;
+}
+.HelpTeacher_Radio {
+    margin-left: 5rem;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: bold;
+}
+.HelpTeacher_TextArea_inputchude {
+    margin-left: 5rem;
+    width: 900px;
+    margin-top: 2rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(55, 56, 57, 0.5);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.HelpTeacher_button {
+    /* button */
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  
+    width: 160px;
+    height: 52px;
+    margin-left: 40rem;
+   
+
+    /* Orange/4 */
+
+    background: #FF7506;
+    border-radius: 8px;
+}
+.HelpTeacher_button_text {
+    /* Button */
+    position: static;
+    width: 31px;
+    height: 23px;
+    left: calc(50% - 31px/2);
+    top: calc(50% - 23px/2);
+
+    /* LMS Student/Sub-header */
+
+    font-family: Mulish;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+
+    font-style: normal;
+    font-weight: 800;
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+.HelpTeacher_b{
+    /* Line 28 */
+    width: 100%;
+    height: 0px;
+    margin-top: 2rem;
+
+    opacity: 0.5;
+    /* Inactivated Icon */
+
+    border: 1px solid #C9C4C0;
+}
+.HelpTeacher_iconMap{
+    margin-left: 72px;
+    margin-top: 5rem;
+}
+.HelpTeacher_Map_b{
+    /* Vector 15 */
+    position: absolute;
+    width: 0px;
+    height: 87px;
+    left: 113px;
+    top: 176px;
+
+    /* /Orange / 7 */
+
+    border: 1px solid #373839;
+}
+.HelpTeacher_text_CN1{
+    /* CN1: 86/33 Âu Cơ, Phường 9, Quận Tân Bình */
+  
+    width: 449px;
+    height: 23px;
+    margin-left: 13rem;
+    margin-top: -5rem;
+    font-style: normal;
+    font-weight: bold;
+    /* LMS Student / Percent */
+
+    font-family: Mulish;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.HelpTeacher_text_CN2{
+    /* CN1: 86/33 Âu Cơ, Phường 9, Quận Tân Bình */
+  
+    width: 449px;
+    height: 23px;
+    margin-left: 13rem;
+    margin-top: -7rem;
+    font-style: normal;
+    font-weight: bold;
+    /* LMS Student / Percent */
+
+    font-family: Mulish;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.HelpTeacher_text_CN3{
+    /* CN1: 86/33 Âu Cơ, Phường 9, Quận Tân Bình */
+  
+    width: 449px;
+    height: 23px;
+    margin-left: 13rem;
+    margin-top: -9rem;
+    font-style: normal;
+    font-weight: bold;
+    /* LMS Student / Percent */
+
+    font-family: Mulish;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.HelpTeacher_iconPhone{
+    margin-left: 72px;
+    margin-top: -14rem;
+}
+.HelpTeacher_Phone_b{
+    /* Vector 16 */
+    position: absolute;
+    width: 0px;
+    height: 52px;
+    left: 113px;
+    top: 302px;
+
+    /* /Orange / 7 */
+
+    border: 1px solid #373839;
+}
+.HelpTeacher_text_Phone1 {
+    /* (028) 2243 6888 */
+    width: 125px;
+    height: 23px;
+    margin-left: 13rem;
+    margin-top: -11.5rem;
+
+    /* LMS Student / Percent */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    letter-spacing: 0.015em;
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.HelpTeacher_text_Phone2 {
+    /* (028) 2243 6888 */
+    width: 125px;
+    height: 23px;
+    margin-left: 13rem;
+    margin-top: -14rem;
+
+    /* LMS Student / Percent */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    letter-spacing: 0.015em;
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.HelpTeacher_iconMail{
+    margin-left: 72px;
+    margin-top: -20.8rem;
+}
+.HelpTeacher_Mail_b{
+    /* Vector 17 */
+    position: absolute;
+    width: 0px;
+    height: 21px;
+    left: 113px;
+    top: 411px;
+
+    /* /Orange / 7 */
+
+    border: 1px solid #373839;
+}
+.HelpTeacher_text_Mail {
+    /* media_infor@alta.com.vn */
+
+    width: 207px;
+    height: 23px;
+    margin-left: 13rem;
+    margin-top: -14.2rem;
+
+    /* LMS Student / Percent */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    letter-spacing: 0.015em;
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.HelpTeacher_modal .ant-modal-content{
+    padding-top: 2.6rem;
+    width: 43.5rem;
+    height: 24.3rem;
+    border-radius: 8px;
+}
+
+.HelpTeacher_modal .ant-modal-header{
+    border: none;
+    text-align: center;
+    padding: 0;
+}
+
+.HelpTeacher_modal .ant-modal-title{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.015em;
+    color: #373839;
+}
+
+.HelpTeacher_modal .HelpTeacher_modal_content{
+    margin-bottom: 0px !important;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #373839;
+}
+
+.HelpTeacher_modal .ant-modal-body{
+    padding: 16px 39px 0px  38px;
+}
