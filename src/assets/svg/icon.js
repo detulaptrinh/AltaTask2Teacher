@@ -69,5 +69,9 @@ export {
     IconSpeakbar,
     IconSpeakbar1,
     IconCircle,
-    Icon3cham
+    Icon3cham,
+    EyesTeacher,
+    MessageTeacher,
+    PaperclipTeacher,
+    IconUpload
 };
