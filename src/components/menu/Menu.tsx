@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
-
-// css
+import { Link } from "react-router-dom";
 import "./Menu.css";
-
-// icon menu
 import {
     Bell,
     BookOpen,
@@ -23,38 +20,38 @@ export default class Menu extends Component {
                 </div>
                 <div id="menu">
                     <ul>
-                        <li className="active"><a href=""><img src={Eyes} alt="" /></a></li>
-                        <li><a href=""><img src={BookOpen} alt="" /></a></li>
-                        <li><a href=""><img src={FileEditAlt} alt="" /></a></li>
-                        <li><a href=""><img src={CalendarAlt} alt="" /></a></li>
-                        <li><a href=""><img src={Bell} alt="" /></a></li>
-                        <li><a href=""><img src={CommentQuestion} alt="" /></a></li>
+                        <li className="active"><Link to=""><img src={Eyes} alt="" /></Link></li>
+                        <li><Link to=""><img src={BookOpen} alt="" /></Link></li>
+                        <li><Link to=""><img src={FileEditAlt} alt="" /></Link></li>
+                        <li><Link to=""><img src={CalendarAlt} alt="" /></Link></li>
+                        <li><Link to=""><img src={Bell} alt="" /></Link></li>
+                        <li><Link to=""><img src={CommentQuestion} alt="" /></Link></li>
                     </ul>
                 </div>
 
                 <div className="sub-menu">
                     <ul>
-                        <li><p><a href="">Tổng quan</a></p></li>
+                        <li><p><Link to="">Tổng quan</Link></p></li>
                         <li>
                             <p>Quản lý lớp học</p>
                             <ul className="sub-menu-1">
-                                <li><a href="">Danh sách lớp hoc</a></li>
-                                <li><a href="">Thêm buổi học mới</a></li>
-                                <li><a href="">Tham gia vào lớp học</a></li>
+                                <li><Link to="">Danh sách lớp hoc</Link></li>
+                                <li><Link to="">Thêm buổi học mới</Link></li>
+                                <li><Link to="">Tham gia vào lớp học</Link></li>
                             </ul>
                         </li>
                         <li>
                             <p>Bài kiểm tra</p>
                             <ul className="sub-menu-1">
-                                <li><a href="">Danh sách bài kiểm tra</a></li>
-                                <li><a href="">Thêm bài kiểm tra mới</a></li>
-                                <li><a href="">Nhập điểm</a></li>
-                                <li><a href="">Bảng điểm</a></li>
+                                <li><Link to="">Danh sách bài kiểm tra</Link></li>
+                                <li><Link to="">Thêm bài kiểm tra mới</Link></li>
+                                <li><Link to="">Nhập điểm</Link></li>
+                                <li><Link to="">Bảng điểm</Link></li>
                             </ul>
                         </li>
-                        <li><p><a href="">Lịch thi</a></p></li>
-                        <li><p><a href="">Thông báo</a></p></li>
-                        <li><p><a href="">Trợ giúp</a></p></li>
+                        <li><p><Link to="">Lịch thi</Link></p></li>
+                        <li><p><Link to="">Thông báo</Link></p></li>
+                        <li><p><Link to="">Trợ giúp</Link></p></li>
                     </ul>
                 </div>
             </div>

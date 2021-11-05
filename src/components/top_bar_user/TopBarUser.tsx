@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-
+import { Link } from "react-router-dom";
 import "./TopBarUser.css";
-
-import { UserCircle } from "../../assets/svg/icon.js";
+import { UserCircle } from "../../assets/svg/icon";
 
 export default class TopBarUser extends Component {
     render() {
@@ -12,7 +11,7 @@ export default class TopBarUser extends Component {
                     <img src={UserCircle} alt="" />
                     <div className="top-bar-user-name">Thanh Tâm</div>
                     <div className="top-bar-user-logout">
-                        <a>Đăng xuất</a>
+                        <Link to="/">Đăng xuất</Link>
                     </div>
                 </div>
             </div>
