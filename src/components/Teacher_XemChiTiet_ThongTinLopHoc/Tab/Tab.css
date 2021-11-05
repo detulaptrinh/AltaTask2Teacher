@@ -1,0 +1,42 @@
+.tab-5 {
+    width: 51.6rem;
+    height: 4.8rem;
+    background: #F2F2F2;
+    border-radius: 28px;
+    margin-top: 3.2rem;
+    position: relative;
+}
+
+.tab-5 .tab-left {
+    position: absolute;
+    width: 250px;
+    height: 36px;
+    left: 8px;
+    top: 6px;
+    background: #373839;
+    border-radius: 28px;
+}
+
+.tab-5 .tab-left a {
+    position: absolute;
+    left: 54px;
+    top: 7px;
+    font-family: 'Mulish';
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+}
+
+.tab-5 .tab-right a {
+    position: absolute;
+    left: 320px;
+    top: 12px;
+    font-family: 'Mulish';
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+    color: #373839;
+    opacity: 0.5;
+}

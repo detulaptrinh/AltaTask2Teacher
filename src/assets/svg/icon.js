@@ -13,6 +13,7 @@ import PaperclipTeacher from "./u_paperclip.svg"
 import UserCircle from "./user_circle.svg"
 
 import IconUpload from "./uploadIcon.svg";
+// img 5. thông tin lop hoc
 
 export {
     Bell,

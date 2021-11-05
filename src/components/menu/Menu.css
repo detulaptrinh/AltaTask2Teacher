@@ -9,6 +9,10 @@
     box-shadow: 4px 4px 15px rgba(122, 176, 225, 0.25);
 }
 
+.menu-component a:hover {
+    color: #F17F21;
+}
+
 .menu-component .active {
     border-radius: 1.6rem;
     background-color: #ffb87e;

@@ -1,0 +1,33 @@
+.breadcrumb-5 {
+    width: auto;
+    max-width: 100%;
+    height: 6rem;
+    font-family: 'Mulish';
+    letter-spacing: 0.015em;
+    display: flex;
+}
+.breadcrumb-5 a {
+    height: 6rem;
+    line-height: 6rem;
+    color: #C9C4C0;
+    font-size: 1.8rem;
+}
+.breadcrumb-5 a:hover {
+    color: #FF7506;
+}
+.breadcrumb-5 i {
+    height: 6rem;
+    line-height: 6rem;
+    color: #FF7506;
+    font-size: 3.7rem;
+    padding: 0 1.2rem;
+}
+
+.breadcrumb-5 p {
+    font-size: 4.8rem;
+    margin: 0;
+    font-weight: 700;
+    color: #373839;
+    margin-top: -0.6rem;
+    cursor: context-menu;
+}
