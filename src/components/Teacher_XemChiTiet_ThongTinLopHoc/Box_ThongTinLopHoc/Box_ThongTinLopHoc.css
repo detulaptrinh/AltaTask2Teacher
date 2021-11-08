@@ -6,10 +6,461 @@
 .box-thong-tin-chi-tiet .box-1 {
     width: 100%;
     height: 13.8rem;
-    background-color: cadetblue;
+    position: relative;
 }
 
 .box-thong-tin-chi-tiet .box-1 .img {
+    position: absolute;
     width: 110px;
     height: 110px;
+    left: 64px;
+    top: 16px;
+}
+
+.box-thong-tin-chi-tiet .box-1 .row {
+    position: absolute;
+    width: 0px;
+    height: 82px;
+    left: 239px;
+    top: 30px;
+
+    opacity: 0.5;
+    border: 1px solid #C9C4C0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.box-thong-tin-chi-tiet .box-1 .giao-vien {
+    position: absolute;
+    width: 73px;
+    height: 20px;
+    left: 299px;
+    top: 35px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-1 .ten-giao-vien {
+    position: absolute;
+    left: 404px;
+    top: 35px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-1 .bo-mon {
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    left: 299px;
+    top: 75px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-1 .ten-bo-mon {
+    position: absolute;
+    width: 47px;
+    height: 21px;
+    left: 404px;
+    top: 75px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-1 .row-1 {
+    position: absolute;
+    width: 0px;
+    height: 82px;
+    left: 575px;
+    top: 30px;
+
+    opacity: 0.5;
+    border: 1px solid #C9C4C0;
+    margin: 0px 10px;
+}
+
+.box-thong-tin-chi-tiet .box-1 .mo-ta {
+    position: absolute;
+    height: 20px;
+    left: 635px;
+    top: 36px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-1 .ten-mo-ta {
+    position: absolute;
+    width: auto;
+    max-width: 724px;
+    height: 42px;
+    left: 703px;
+    top: 35px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-1 .lop {
+    position: absolute;
+    height: 20px;
+    left: 635px;
+    top: 86px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-1 .ten-lop {
+    position: absolute;
+    height: 21px;
+    left: 703px;
+    top: 85px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #373839;
+}
+
+/* box 2 */
+.box-thong-tin-chi-tiet .box-2 {
+    width: auto;
+    max-width: 1680px;
+    height: 300px;
+    background: #f8fafb;
+    position: relative;
+}
+
+.box-thong-tin-chi-tiet .box-2 .lable-lich-hoc {
+    position: absolute;
+    width: auto;
+    height: 20px;
+    left: 299px;
+    top: 12px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-2 .text-lich-hoc {
+    position: absolute;
+    width: auto;
+    height: 21px;
+    left: 455px;
+    top: 12px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-2 .text-lich-hoc span {
+    font-weight: bold;
+}
+
+.box-thong-tin-chi-tiet .box-2 .lable-ngay-bat-dau {
+    position: absolute;
+    width: auto;
+    height: 20px;
+    left: 299px;
+    top: 50px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-2 .text-ngay-bat-dau {
+    position: absolute;
+    width: auto;
+    height: 21px;
+    left: 455px;
+    top: 50px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-2 .lable-ngay-ket-thuc {
+    position: absolute;
+    width: auto;
+    height: 20px;
+    left: 299px;
+    top: 88px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-2 .text-ngay-ket-thuc {
+    position: absolute;
+    width: auto;
+    height: 21px;
+    left: 455px;
+    top: 88px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc {
+    position: relative;
+    width: auto;
+    max-width: 1256px;
+    height: 120px;
+    left: 235px;
+    top: 125px;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .arrow-left a {
+    position: absolute;
+    left: 15px;
+    top: 57px;
+    color: #FF7506;
+    font-size: 30px;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .arrow-right a {
+    position: absolute;
+    right: 15px;
+    top: 57px;
+    color: #FF7506;
+    font-size: 30px;
+}
+
+/* group box */
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .group-box {
+    width: auto;
+    max-width: 1128px;
+    height: 120px;
+    margin-left: 64px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .group-box .box-buoi-hoc {
+    width: 120px;
+    height: 120px;
+
+    background: #C9C4C0;
+    border-radius: 16px;
+    position: relative;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .group-box>div:not(:first-child) {
+    margin-left: 48px;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .group-box .box-buoi-hoc .lable-buoi-hoc {
+    position: absolute;
+    width: 79px;
+    height: 27px;
+    left: 21px;
+    top: 13px;
+
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .group-box .box-buoi-hoc .lable-buoi-hoc p {
+    position: absolute;
+    width: auto;
+    height: 20px;
+    left: 19px;
+    top: 4px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+
+    color: #C9C4C0;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .group-box .box-buoi-hoc .text-ngay-hoc {
+    position: absolute;
+    width: auto;
+    height: 20px;
+    left: 21px;
+    top: 49px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .group-box .box-buoi-hoc .text-gio-hoc {
+    position: absolute;
+    width: auto;
+    height: 23px;
+    left: 6px;
+    top: 80px;
+
+    font-family: 'Mulish';
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .group-box .box-buoi-hoc img {
+    position: absolute;
+    left: 28%;
+    top: 28%;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .group-box .icon-edit {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .group-box .icon-edit a:not(:first-child) {
+    margin-left: 10px;
+}
+
+
+/* group box - color */
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .group-box .background-cam {
+    background-color: #FF7506;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .group-box .color-cam p {
+    color: #FF7506 !important;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .group-box .background-blue {
+    background-color: #2EACEE;
+}
+
+.box-thong-tin-chi-tiet .box-2 .group-buoi-hoc .group-box .color-blue p {
+    color: #2EACEE !important;
+}
+
+/* box 3 */
+.box-thong-tin-chi-tiet .box-3 {
+    width: 1690px;
+    max-width: 1690px;
+    min-height: 200px;
+    padding-left: 299px;
+    padding-bottom: 30px;
+}
+
+.box-thong-tin-chi-tiet .box-3 .lable {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-3 .text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #373839;
+}
+
+.box-thong-tin-chi-tiet .box-3 .ant-row {
+    margin-top: 19px;
+}
+
+.box-thong-tin-chi-tiet .box-3 .ant-row .ant-space-item {
+    width: 434px;
+    height: 32px;
+}
+
+.box-thong-tin-chi-tiet .box-3 .ant-row .ant-space-item svg {
+    color: #FF7506;
+}
+
+.box-thong-tin-chi-tiet .box-3 .ant-row .ant-checkbox-wrapper {
+    display: flex;
+}
+
+.box-thong-tin-chi-tiet .box-3 .ant-row Input {
+    width: 434px;
+}
+
+.box-thong-tin-chi-tiet .box-3 .ant-row Button {
+    width: 108px;
+    height: 32px;
+    background: #FF7506;
+    border-radius: 4px;
+    margin-left: 27px;
 }

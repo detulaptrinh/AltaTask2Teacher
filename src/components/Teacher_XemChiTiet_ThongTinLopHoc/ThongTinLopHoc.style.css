@@ -8,3 +8,22 @@
     border-radius: 16px;
     margin-top: 3.2rem;
 }
+
+.thong-tin-lop-hoc .btn {
+    width: 100%;
+    text-align: center;
+}
+
+.thong-tin-lop-hoc .btn Button {
+    width: 192px;
+    height: 53px;
+    background: #FF7506;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 48px;
+
+    font-family: 'Mulish';
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+}
