@@ -1,0 +1,199 @@
+.main__chatcontent {
+    flex: 1;
+    padding: 2.2rem 3.8rem;
+    max-width: 106.2rem;
+    background: #FFFFFF;
+  
+    box-shadow: 4px 4px 25px 4px rgba(154, 202, 245, 0.25);
+    border-radius: 16px;
+}
+.content__header {
+    padding-bottom: 15px;
+}
+  
+.content__footer textarea{
+    font-style: italic;
+    outline: none;
+    resize: none;
+    width: 100%;
+    border: none;
+    height: 14rem;
+}
+
+.current_chatting_user {
+    display: flex;
+    align-items: center;
+}
+
+.current-chatting-user p {
+    margin: 0;
+    font-weight: 600;
+}
+  
+.name{
+    font-family: Mulish;
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: 0.015em;
+      font-weight: 700;
+      color: #CC5C00;
+}
+  
+.blocks{
+    display: flex;
+}
+  
+.chat__item__header{
+    display: flex;
+}
+
+.content__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content_all{
+    max-height: 52rem;
+    overflow: auto;
+  
+}
+  
+.chat__item .avatar {
+    margin-right: 0px;
+    margin-left: 20px;
+    background: #fff;
+    padding: 1px;
+}
+
+.chat__item__content {
+    padding: 12px 26px 14px 48px;
+    width: 100%;
+}
+  
+.avt_content{
+    border-radius: 50px;
+    width: 48px;
+    height: 48px;
+}
+  
+.avt_content img{
+    height: 100%;
+    width: 100%;
+}
+  
+.chat__user_name{
+    align-items: center;
+    height: 2.3rem;
+    display: flex;
+}
+  
+.name{
+    font-family: Mulish;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+    font-weight: 700;
+  
+    color: #CC5C00;
+}
+  
+.role{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+  
+    color: #C9C4C0;
+  }
+  
+.dash{
+    background: #C4C4C4;  
+  
+    margin: 0 1.1rem;
+    width: 1.2rem;
+    height: 2px;
+  }
+  
+.time_year, .time_hour{
+    margin-right: 3.2rem;
+  
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+  
+    color: #373839;
+    opacity: 0.5;
+  }
+  
+  .btn-reply-teacher{
+    width: 9.4rem;
+    height: 3.2rem;
+    background: #FFD8B8;
+    color: #373839;
+  
+    border: 1px solid #FF7506;
+    box-sizing: border-box;
+    border-radius: 4px;
+  
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+    cursor: pointer;
+  
+  }
+  
+  .chat__user_content{
+    margin-top: 1.6rem;
+    margin-left: 7rem;
+  }
+  
+  .chat__user-content p{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+  
+  
+    color: #373839;
+  }
+  
+  .content__footer {
+    margin-top: 2rem;
+    border: 1px solid #C9C4C0;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  .sendNewMessage {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .sendNewMessage button {
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #4665ff;
+    padding: 0;
+    border-radius: 5px;
+    line-height: 32px;
+    transition: all 0.3s cubic-bezier(0.88, 0.19, 0.37, 1.11);
+  }
+  
+  #sendMsgBtn, .paperclip {
+    background-color: #fff;
+  }
+  
