@@ -1,0 +1,49 @@
+.main__chatbody {
+    flex-grow: 1;
+    display: flex;
+  }
+  
+  .create_topics{
+    position: relative;
+    float: right;
+    margin-bottom: -6rem;
+    cursor: pointer;
+    z-index: 99;
+    width: 20rem;
+    height: 4.8rem;
+  
+    background: #FF7506;
+    border: none;
+    border-radius: 8px;
+  
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+  
+    color: #FFFFFF;
+  
+  }
+  
+  .tabs-question .ant-tabs{
+    width: 100%;
+  }
+  
+  .all_question{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 18px
+  }
+  
+  .all_question_bg{
+    display: inline-block;
+    background: #FF5400;
+    border-radius: 50px;
+    color: #fff;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: 8px;
+  }

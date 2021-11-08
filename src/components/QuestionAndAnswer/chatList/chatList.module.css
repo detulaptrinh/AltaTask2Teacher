@@ -1,0 +1,229 @@
+.title {
+  height: 6rem;
+}
+
+.tittle__breadcrumb__left{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.015em;
+  color: #C9C4C0;
+}
+
+.main__chatlist {
+  margin-right: 4rem;
+  width: 571px;
+  height: 813px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 25px 4px rgba(154, 202, 245, 0.25);
+  border-radius: 16px;
+}
+.chatlist__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-nobg {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px;
+  color: #dad9dd;
+  outline: none;
+}
+
+.search_wrap {
+  background-color: #e6e5ea;
+  border-radius: 5px;
+}
+
+.search_wrap input {
+  background-color: transparent;
+  border: none;
+  padding: 15px 15px;
+  outline: none;
+  width: 80%;
+  padding-right: 0;
+}
+.search-btn {
+  height: 46px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 20%;
+  cursor: pointer;
+  font-size: 20px;
+}
+.chatlist__items {
+  margin-top: 30px;
+  overflow: auto;
+  max-height: 72.6rem;
+  padding: 0 4rem;
+}
+
+.chatlist__item {
+  margin-bottom: 1rem;
+  display: flex;
+  cursor: pointer;
+  padding: 1rem 2.9rem;
+  align-items: center;
+}
+
+.chatlist__item:first-child {
+  margin-top: 0;
+}
+.avatar {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+
+  margin-right: 20px;
+  position: relative;
+}
+.avatar img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.chatlist__item .userMeta, .userInforr {
+  font-family: Mulish;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  color: #373839;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.chatlist__item .userMeta ,.activeContent, .activeTime, .views {
+  margin: 0;
+  padding: 0;
+  color: #ceccd3;
+  font-weight: 400;
+  font-size: 16px;
+  display: block;
+}
+.chatlist__item:hover,
+.chatlist__item.active {
+  background: #F0F3F6;
+  border-radius: 8px;
+}
+
+.tab-search-right{
+  margin-top: 1.6rem;
+  margin-left: 3.6rem;
+  margin-bottom: 2.6rem;
+  width: 43rem;
+  height: 4rem;
+  border-radius: 2.4rem;
+}
+
+.tab_search_right__input.ant-input {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  width: 43.8rem;
+  height: 4rem;
+  border-radius: 2.4rem;
+  background: #F0F3F6;
+  border: none
+}
+
+.tab_search_right__input.ant-input:focus{
+  outline: none;
+  box-shadow: none;
+}
+.userMeta{
+  width: 100%;
+}
+.userInfor{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.userMess{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs-question .ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab-active, .ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab-active{
+  background: #FFF9F4;
+/* /Orange / 6 */
+
+border: 1px solid #823B00;
+border-radius: 8px;
+}
+.tabs-question .ant-tabs-top > .ant-tabs-nav::before, .ant-tabs-bottom > .ant-tabs-nav::before, .ant-tabs-top > div > .ant-tabs-nav::before, .ant-tabs-bottom > div > .ant-tabs-nav::before{
+  border: none;
+}
+
+.tabs-question .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab, .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab{
+  transition: none;
+}
+.tabs-question .ant-tabs-tab-btn{
+  transition: none;
+  font-family: Mulish;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.015em;
+
+  color: #373839;
+  opacity: 0.5;
+}
+
+.tabs-question .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab, .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab{
+  border: none;
+  background:none;
+}
+
+.tabs-question .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  font-family: Mulish;
+  font-size: 18px;
+  line-height: 21px; 
+  font-weight: 800;
+  letter-spacing: 0.015em;
+  
+  color: #373839;
+  opacity: 1;
+}
+
+.tabs-question .ant-tabs-tab{
+  margin-right: 6rem !important;
+}
+
+.tabs-question .ant-tabs-content {
+  padding: 1rem 1rem;
+  padding-top: 1.6rem;
+}
+.avatar-img {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 100%;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 16rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #999796;
+  border-radius: 15px;
+}
+
