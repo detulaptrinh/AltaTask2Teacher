@@ -13,7 +13,7 @@ import PaperclipTeacher from "./u_paperclip.svg"
 import UserCircle from "./user_circle.svg"
 
 import IconUpload from "./uploadIcon.svg";
-// img 5. thông tin lop hoc
+
 import IconMap from "./iconMap.svg"
 import IconPhone from "./iconPhone.svg"
 import IconMail from "./iconMail.svg"
@@ -37,6 +37,11 @@ import IconSpeakbar from "./iconSpeakbar.svg"
 import IconSpeakbar1 from "./iconSpeakbar1.svg"
 import IconCircle from "./iconCircle.svg"
 import Icon3cham from "./icon3cham.svg"
+
+// icon 5. Thông tin lớp hoc
+import IconInsert50 from "./icon-insert.svg"
+import IconFiCirclex from "./fi_x-circlex.svg"
+import IconFiEdit from "./fi_edit.svg"
 
 export {
     Bell,
@@ -73,5 +78,8 @@ export {
     EyesTeacher,
     MessageTeacher,
     PaperclipTeacher,
-    IconUpload
+    IconUpload,
+    IconInsert50,
+    IconFiCirclex,
+    IconFiEdit
 };

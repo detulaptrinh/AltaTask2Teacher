@@ -31,12 +31,15 @@ export default class App extends Component {
                             <TopBarUser />
                             <main>
                                 
-                                {/* 5. Thông tin lớp học */}
                                 {/* <Route path="/helpTeacher" component={HelpTeacher} />
                                 <Route path="/joinClass" component={JoinClassTeacher} /> */}
                                 <Route path="/" component={Dashboard} />
                                 <Route path="/chat" component={ChatBody} />
+
+                                {/* 5. Thông tin lớp học */}
                                 <Route path="/class" component={ThongTinLopHoc} />
+
+
                                 <Route path="/joinclass" component={JoinClassTeacher} />
 
                             </main>
