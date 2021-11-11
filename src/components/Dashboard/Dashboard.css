@@ -1,0 +1,70 @@
+.dashboard .table__coll .ant-table-tbody > tr > td {
+  font-family: "Source Sans Pro";
+  color: #373839;
+  padding: 2rem;
+  top: -1rem;
+}
+.dashboard .box__collapse .ant-space {
+  width: 100%;
+}
+.dashboard .box__collapse .ant-space .ant-space-item {
+  margin-top: 2.4rem;
+}
+.dashboard .box__collapse .ant-collapse {
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+}
+
+.dashboard
+  .box__collapse
+  .ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header {
+  padding: 16px 16px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.015em;
+  color: #373839;
+}
+.dashboard
+  .box__collapse
+  .ant-collapse
+  > .ant-collapse-item-active
+  > .ant-collapse-header {
+  color: #FFF;
+  background: linear-gradient(270deg, #ff5400 0%, #f17f21 80.56%);
+  border-radius: 0.8rem;
+  opacity: 0.8;
+}
+.dashboard
+  .box__collapse
+  .ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header
+  .ant-collapse-arrow {
+  color: #ff7506;
+  font-size: 2rem;
+}
+.dashboard
+  .box__collapse
+  .ant-collapse
+  > .ant-collapse-item-active
+  > .ant-collapse-header
+  .ant-collapse-arrow {
+  color: white;
+}
+
+.dashboard .box__collapse .ant-collapse .ant-collapse-item {
+  border-radius: 0.8rem;
+}
+.dashboard .box__collapse .ant-collapse-item-active {
+}
+.dashboard
+  .box__collapse
+  .ant-collapse-item-active
+  .ant-collapse-header
+  .ant-collapse-header-text {
+  color: white;
+}

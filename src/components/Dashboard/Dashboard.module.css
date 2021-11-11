@@ -1,0 +1,135 @@
+.title {
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  letter-spacing: 0.015em;
+  color: #373839;
+  font-family: "Mulish";
+}
+.title_sub{
+  font-size: 2.8rem;
+  line-height: 33px;
+  letter-spacing: 0.015em;
+  color: #373839;
+}
+.box {
+  position: relative;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Mulish";
+  width: 30.4rem;
+  height: 12rem;
+  color: #fff;
+}
+.box_main_chart{
+  margin-top: 6rem;
+}
+.box_chart{
+  width: 100%;
+  height: 40rem;
+  border-radius: 3rem;
+  background-color: #fff;
+  box-shadow: 4px 4px 25px 4px rgba(154, 202, 245, 0.25);
+}
+.object {
+  background: linear-gradient(270deg, #ff5400 0%, #f17f21 80.56%);
+  opacity: 0.9;
+  z-index: -1;
+  flex:2;
+}
+.class {
+  background: linear-gradient(98.91deg, #56CCF2 1.13%, #2F80ED 100%);
+  z-index: -2;
+  flex:2;
+}
+.test {
+  background: linear-gradient(98.45deg, #FDC830 0%, #F37335 80.32%);
+  z-index: -2;
+  flex:2;
+}
+.quiz {
+  background: linear-gradient(98.89deg, rgba(46, 172, 238, 0.7) 4.77%, rgba(0, 22, 218, 0.7) 96.59%);
+  z-index: -2;
+  flex:2;
+}
+.elipse1 {
+  width: 10.4rem;
+  height: 10.4rem;
+  border-radius: 50%;
+  background: #ffffff;
+  opacity: 0.1;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  left: -5rem;
+  top: -4rem;
+  position:absolute;
+}
+.elipse2 {
+  width: 10.4rem;
+  height: 10.4rem;
+  border-radius: 50%;
+  background: #ffffff;
+  opacity: 0.1;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position:absolute;
+  top: 7rem;
+  right: -3rem;
+}
+.elipse3 {
+  width: 10.4rem;
+  height: 10.4rem;
+  border-radius: 50%;
+  background: #ffffff;
+  opacity: 0.1;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: absolute;
+  top: 4rem;
+  right: -6rem;
+}
+.number {
+  font-size: 4.8rem;
+  margin-bottom: 0.5px;
+  line-height: -1.57px;
+}
+.box_title {
+  font-size: 1.8rem;
+}
+.sub{
+  font-family: 'Source Sans Pro';
+  line-height: 2.8rem;
+  color: #373839;
+  font-size: 1.6rem;
+}
+.number_sub{
+  line-height: 2rem;
+  letter-spacing: 0.015em;
+  font-family: 'Source Sans Pro';
+}
+.sub1{
+  color: #373839;
+}
+.sub2{
+  color: #2EACEE;
+}
+.sub3{
+  color: #FF7560;
+}
+.sub4{
+  color: #49C510;
+}
+.sub5{
+  color: #C9C4C0;
+}
+.table__coll table thead{
+  display: none;
+}
+.statusnotdone{
+  color: #ED2025;
+}
+.statusdone{
+  color: #0B80EC;
+}
+.btn__img{
+  background:none;
+  border: none;
+}

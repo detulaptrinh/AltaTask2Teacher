@@ -9,11 +9,9 @@ import Vector from "./vector.svg";
 import EyesTeacher from "./fi_eye_teacher.svg"
 import MessageTeacher from "./u_message.svg"
 import PaperclipTeacher from "./u_paperclip.svg"
-// icon top bar user
 import UserCircle from "./user_circle.svg"
-
 import IconUpload from "./uploadIcon.svg";
-
+import IconInfo from "./infoicon.svg";
 import IconMap from "./iconMap.svg"
 import IconPhone from "./iconPhone.svg"
 import IconMail from "./iconMail.svg"
@@ -56,6 +54,7 @@ export {
     FileEditAlt,
     Vector,
     UserCircle,
+    IconInfo,
     IconMap,
     IconPhone,
     IconMail,
