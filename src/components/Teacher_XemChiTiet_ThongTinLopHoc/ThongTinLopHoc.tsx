@@ -6,6 +6,8 @@ import Breadcrumb from './Breadcrumb/Breadcrumb';
 import Tab from './Tab/Tab';
 import Box_ThongTinLopHoc from './Box_ThongTinLopHoc/Box_ThongTinLopHoc';
 
+import { Button } from 'antd';
+
 export default class ThongTinLopHoc extends Component {
     render() {
         return (
@@ -16,6 +18,9 @@ export default class ThongTinLopHoc extends Component {
                 <main>
                     <Box_ThongTinLopHoc />
                 </main>
+                <div className="btn">
+                    <Button type="primary">Bắt đầu lớp học</Button>
+                </div>
             </div>
         )
     }

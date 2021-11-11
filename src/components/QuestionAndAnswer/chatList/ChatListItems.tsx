@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Avatar from "./Avatar";
 import { EyesTeacher } from "../../../assets/svg/icon";
+import chatlistAllTopicCSS from "./ChatList.module.css"
 
 
 interface IRecipeProps {
@@ -10,6 +11,8 @@ interface IRecipeProps {
     views?:number;
     question?:string;
     date?:string;
+    key?:string;
+    data1?:number;
   }
   
 
@@ -40,19 +43,18 @@ export default class ChatListItems extends Component<IRecipeProps> {
           image={
             this.props.image
           }
-
         />
 
-        <div className="userMeta">
-          <div className="userInfor">
-          <p>{this.props.name}</p>
-          <span>
+        <div className={chatlistAllTopicCSS.userMeta}>
+          <div className={chatlistAllTopicCSS.userInfor}>
+          <p className={chatlistAllTopicCSS.userInforr}>{this.props.name}</p>
+          <span className={chatlistAllTopicCSS.views}>
             <img src={EyesTeacher}/>
             {this.props.views}</span>
           </div>
-          <div className="userMess">
-          <span className="activeContent">{this.props.question}</span>
-          <span className="activeTime">{this.props.date}</span>
+          <div className={chatlistAllTopicCSS.userMess}>
+          <p className={chatlistAllTopicCSS.activeContent}>{this.props.question}</p>
+          <span className={chatlistAllTopicCSS.activeTime}>{this.props.date}</span>
           </div>
         </div>
       </div>
