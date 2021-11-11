@@ -1,0 +1,192 @@
+/* select_Subject */
+.select_Subject_Upcoming_Test.ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  background-color: #fff;
+  border: 0.1rem solid #373839;
+  border-radius: 0.4rem;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.select_Subject_Upcoming_Test.ant-select {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 130%;
+  color: #373839;
+}
+.select_Subject_Upcoming_Test.ant-select-single.ant-select-show-arrow
+  .ant-select-selection-search {
+  right: 3rem;
+  border-right: 0.1rem solid #373839;
+}
+
+/* select_Block */
+
+.select_Block_Upcoming_Test.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: #fff;
+  border: 0.1rem solid #373839;
+  border-radius: 0.4rem;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.select_Block_Upcoming_Test.ant-select {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 130%;
+  color: #373839;
+}
+.select_Block_Upcoming_Test.ant-select-single.ant-select-show-arrow
+  .ant-select-selection-search {
+  right: 3rem;
+  border-right: 0.1rem solid #373839;
+}
+
+/* TABLE */
+.Upcoming_Test_table {
+  width: 160.4rem;
+  height: 50rem;
+  border: 0.01rem solid #f0f3f6;
+  border-radius: 1rem;
+}
+.Upcoming_Test_table .ant-table-thead > tr > th {
+  color: #ffffff;
+  text-align: center;
+  background: none;
+  border-bottom: 0em;
+  font-family: "Mulish";
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 2.3rem;
+  letter-spacing: 0.015em;
+  text-align: left;
+}
+.Upcoming_Test_table .ant-table-thead {
+  background: linear-gradient(270deg, #ff5400 0%, #f17f21 80.56%);
+}
+.Upcoming_Test_table .ant-table-tbody > tr .allTest_table.ant-table-row:hover > td {
+  background: #f0f3f6;
+  text-align: left;
+}
+.Upcoming_Test_table .ant-table-thead > tr > th,
+.Upcoming_Test_table .ant-table-tbody > tr > td,
+.Upcoming_Test_table .ant-table tfoot > tr > th,
+.Upcoming_Test_table .ant-table tfoot > tr > td {
+  padding: 1rem;
+  overflow-wrap: normal;
+  text-align: left;
+}
+.Upcoming_Test_table .ant-table-tbody > tr > td {
+  border-bottom: 0.1rem solid #f0f0f0;
+  font-family: "Source Sans Pro";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.1rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Upcoming_Test_table .ant-table-thead > tr > th,
+.Upcoming_Test_table.ant-table-tbody > tr > td,
+.Upcoming_Test_table .ant-table tfoot > tr > th,
+.Upcoming_Test_table .ant-table tfoot > tr > td {
+  width: 20rem;
+  height: 4rem;
+  overflow-wrap: normal;
+}
+.Upcoming_Test_table table > thead > tr:first-child th:last-child {
+  border-top-right-radius: 1rem;
+}
+.Upcoming_Test_table table > thead > tr:first-child th:first-child {
+  border-top-left-radius: 1rem;
+}
+
+/* pagination */
+
+.pagination-number-Upcoming-Test .ant-pagination-item-active a {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #fff9f4;
+  border-radius: 50%;
+  background: #ff7506;
+}
+.pagination-number-Upcoming-Test .ant-pagination a:hover {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #fff9f4;
+  border-radius: 50%;
+  background: #ff7506;
+}
+.pagination-number-Upcoming-Test .ant-pagination-options {
+  display: none;
+}
+.pagination-number-Upcoming-Test .ant-pagination li {
+  border: none;
+}
+.pagination-number-Upcoming-Test .ant-pagination-prev button {
+  border: none;
+}
+.pagination-number-Upcoming-Test .ant-pagination-prev button:hover {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #fff9f4;
+  border-radius: 50%;
+  background: #ff7506;
+}
+.pagination-number-Upcoming-Test .ant-pagination-next button {
+  border: none;
+}
+.pagination-number-Upcoming-Test .ant-pagination-next button:hover {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #fff9f4;
+  border-radius: 50%;
+  background: #ff7506;
+}
+.pagination-number-Upcoming-Test .ant-pagination-jump-prev a:hover {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+/*  */
+.pagination-text-Upcoming-Test {
+  display: flex;
+}
+.pagination-text-Upcoming-Test .ant-input-number {
+  width: 48px;
+  height: 32px;
+  background-color: transparent;
+  border: 1px solid #ff7506;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.pagination-text-view-Upcoming-Test{
+  margin: 0.5rem 2rem 0 0rem;
+}
+.pagination-text-rol-Upcoming-Test {
+  margin: 0.5rem 0 0 2rem;
+}
+
+/* MODAL IN TABLE */
+
+.modal_It_Upcoming_Test .ant-modal-close-x {
+  display: none;
+}
+.modal_It_Upcoming_Test .ant-modal-footer {
+  display: none;
+}
+.modal_It_Upcoming_Test .ant-modal-content {
+  width: 43.5rem;
+  height: 24.4rem;
+  background: #ffffff;
+  border-radius: 1.6rem;
+}

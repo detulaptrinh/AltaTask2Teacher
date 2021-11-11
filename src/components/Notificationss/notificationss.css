@@ -1,0 +1,75 @@
+/* BREADCRUMB */
+.separator_Breadcrumb_Notifications .ant-breadcrumb-separator {
+  width: 0.957rem;
+  height: 1.664rem;
+  color: #ff7506;
+  font-size: 3rem;
+}
+
+/* TABS */
+.tab_Group_Notifications {
+  position: absolute;
+  width: 516px;
+  height: 48px;
+  left: 217px;
+  top: 161px;
+}
+
+.tab_Group_tabs_Notifications .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  font-family: "Mulish";
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tab_Group_tabs_Notifications .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab-active {
+  width: 20.7rem;
+  height: 6.9rem;
+  background: linear-gradient(270deg, #ff5400 0%, #f17f21 80.56%);
+}
+.tab_Group_tabs_Notifications
+  .ant-tabs-card.ant-tabs-top
+  > .ant-tabs-nav
+  .ant-tabs-tab
+  + .ant-tabs-tab,
+.ant-tabs-card.ant-tabs-bottom > .ant-tabs-nav .ant-tabs-tab + .ant-tabs-tab,
+.ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab + .ant-tabs-tab,
+.ant-tabs-card.ant-tabs-bottom
+  > div
+  > .ant-tabs-nav.ant-tabs-tab
+  + .ant-tabs-tab {
+  margin-left: 2.4rem;
+}
+.tab_Group_tabs_Notifications .ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab,
+.ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab {
+  border-radius: 0.8rem 0.8rem 0rem 0rem;
+  border: 0.1rem solid;
+  border-image-source: linear-gradient(270deg, #ff5400 0%, #f17f21 80.56%);
+  width: 20.7rem;
+  height: 6.9rem;
+}
+.tab_Group_tabs_Notifications .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab,
+.ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.015em;
+  color: #373839;
+}
+
+.tab_Group_tabs_Notifications .ant-tabs-tabpane {
+  position: fixed;
+  width: 1640px;
+  height: 800px;
+  left: 217px;
+  top: 237px;
+  background: #ffffff;
+  box-shadow: 0.4rem 0.4rem 2.5rem 0.4rem rgba(154, 202, 245, 0.25);
+  border-radius: 1.6rem;
+}

@@ -37,7 +37,8 @@ import IconSpeakbar from "./iconSpeakbar.svg"
 import IconSpeakbar1 from "./iconSpeakbar1.svg"
 import IconCircle from "./iconCircle.svg"
 import Icon3cham from "./icon3cham.svg"
-
+import IconEdit from "./fi_edit.svg"
+import IconInfo from "./fi_info.svg"
 export {
     Bell,
     BookOpen,
@@ -73,5 +74,7 @@ export {
     EyesTeacher,
     MessageTeacher,
     PaperclipTeacher,
-    IconUpload
+    IconUpload,
+    IconEdit,
+    IconInfo,
 };

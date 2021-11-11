@@ -15,6 +15,9 @@ import JoinClassTeacher from './components/JoinClassTeacher/JoinClassTeacher';
 
 import "./App.css"; // css
 import Dashboard from './components/Dashboard/Dashboard';
+import TestList from './components/TestList/testList';
+import AllTests from './components/TestList/AllTests/allTests';
+import Notifications from './components/Notificationss/notifications';
 export default class App extends Component {
     render() {
         return (
@@ -38,6 +41,12 @@ export default class App extends Component {
                                 <Route path="/chat" component={ChatBody} />
                                 <Route path="/class" component={ThongTinLopHoc} />
                                 <Route path="/joinclass" component={JoinClassTeacher} />
+
+                                {/* Tri */}
+                                <Route path="/testlist" component={TestList} />
+                                <Route path="/notifications" component={Notifications} />
+
+
 
                             </main>
                         </div>
