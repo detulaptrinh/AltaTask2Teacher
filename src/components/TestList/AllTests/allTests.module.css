@@ -1,0 +1,347 @@
+.col_Choose_Group {
+  width: 100%;
+  height: 11.1rem;
+}
+
+/* choose_Subject */
+
+.choose_Subject {
+  position: absolute;
+  left: 3.6rem;
+  top: 5.5rem;
+}
+
+.label_Choose_Subject {
+  position: absolute;
+  width: 11.9rem;
+  height: 2.3rem;
+  left: 3.6rem;
+  top: 2.4rem;
+  font-family: "Mulish";
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.015em;
+  color: #373839;
+}
+
+/* choose_Block */
+
+.choose_Block {
+  position: absolute;
+  left: 20.4rem;
+  top: 5.5rem;
+}
+
+.label_Choose_Block {
+  position: absolute;
+  width: 9rem;
+  height: 2.3rem;
+  left: 20.4rem;
+  top: 2.4rem;
+  font-family: "Mulish";
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.015em;
+  color: #373839;
+}
+/* choose_Date */
+
+.choose_Date {
+  position: absolute;
+  left: 33.4rem;
+  top: 5.5rem;
+}
+
+.label_Choose_Date {
+  position: absolute;
+  width: 9.7rem;
+  height: 2.3rem;
+  left: 33.4rem;
+  top: 2.4rem;
+  font-family: "Mulish";
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.015em;
+  color: #373839;
+}
+/* BUTTON Filter_Results */
+.choose_Btn_Filter_Results {
+  position: absolute;
+  left: 50.2rem;
+  top: 5.5rem;
+}
+
+.btn_Filter_Results:hover,
+.btn_Filter_Results:focus {
+  background: #ff7506;
+}
+.btn_Filter_Results {
+  padding: 0rem;
+  position: absolute;
+  width: 13rem;
+  height: 3.2rem;
+  background: #ff7506;
+  border-radius: 0.8rem;
+}
+
+.btn_Filter_Results > span {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #fff9f4;
+}
+
+/* COL SEARCH */
+.col_Search_Group {
+  width: 100%;
+  height: 11.1rem;
+}
+/* SEARCH */
+.box_Searchs {
+  margin-top: 4.7rem;
+  margin-right: 3.6rem;
+  float: right;
+}
+.allTest_Searchs {
+  width: 43rem;
+  height: 4rem;
+  border-radius: 2.4rem;
+  position: relative;
+  display: inline-block;
+  padding: 0.4rem 1.1rem;
+  color: #c5c5c5;
+  font-size: 1.4rem;
+  line-height: 1.5715rem;
+  background-color: #f0f3f6;
+  background-image: none;
+  border: 0.1rem solid #f0f3f6;
+  border-radius: 4.2rem;
+  transition: all 0.3s;
+  display: inline-flex;
+  line-height: 3.2rem;
+}
+
+.allTest_Searchs input {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #373839;
+  opacity: 0.5;
+  background-color: #efefef;
+}
+/* TABLE */
+.body_Container {
+  position: absolute;
+  left: 3.6rem;
+}
+
+.no_Started {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #ed2025;
+}
+.in_Process {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #0b80ec;
+}
+
+.finished {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #49c510;
+}
+.btn_Started {
+  align-items: center;
+  padding: 0.6rem 0.5rem;
+  width: 14.2rem;
+  height: 3.2rem;
+  background: #ff7506;
+  border-radius: 0.4rem;
+}
+
+.btn_Started:hover,
+.btn_Started:focus {
+  background: #ff7506;
+}
+
+.btn_Started > span {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #ffffff;
+}
+
+.btn_Score {
+  align-items: center;
+  padding: 0.6rem 0.5rem;
+  width: 14.2rem;
+  height: 3.2rem;
+  background: #ffb923;
+  border-radius: 0.4rem;
+}
+
+.btn_Score:hover,
+.btn_Score:focus {
+  background: #ffb923;
+}
+
+.btn_Score > span {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #ffffff;
+}
+.btn_Tag_Score {
+  width: 14.2rem;
+  height: 3.2rem;
+  border: 0.1rem solid #c9c4c0;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  text-align: center;
+  padding: 0.5rem 0.6rem;
+}
+.btn_Tag_Score_Txt {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  letter-spacing: 0.015em;
+  color: #c9c4c0;
+  align-items: center;
+  padding: auto;
+}
+
+.tag_input_Score {
+  width: 14.2rem;
+  height: 3.2rem;
+  border: 0.1rem solid #c9c4c0;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  text-align: center;
+  padding: 0.5rem 0.6rem;
+}
+.tag_input_Score_Txt {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  letter-spacing: 0.015em;
+  color: #c9c4c0;
+  align-items: center;
+  padding: auto;
+}
+/* FOOTER */
+.col_footer_right {
+  width: 100%;
+  top: 60.9rem;
+  right: 3.6rem;
+}
+
+.footer_pagination_numb {
+  float: right;
+}
+
+.col_footer_left {
+  width: 100%;
+  top: 61.4rem;
+  left: 3.6rem;
+}
+
+/* MODAL IN TABLE */
+.modal_txt_1 {
+  position: absolute;
+  width: 131px;
+  height: 35px;
+  left: 152px;
+  top: 24px;
+  font-family: "Mulish";
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #373839;
+}
+.modal_txt_2 {
+  position: absolute;
+
+  left: 50px;
+  top: 83px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  color: #373839;
+}
+.btn_Cancel {
+  position: absolute;
+  width: 160px;
+  height: 52px;
+  left: 29px;
+  top: 152px;
+  background: #f2f2f2;
+  border-radius: 0.8rem;
+  align-items: center;
+}
+.btn_Cancel > span {
+  font-family: "Mulish";
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  font-weight: 900;
+  /* /Orange / 7 */
+
+  color: #373839;
+}
+.btn_Confirm {
+  position: absolute;
+  width: 192px;
+  height: 52px;
+  left: 213px;
+  top: 152px;
+  background: #ff7506;
+  border-radius: 0.8rem;
+  align-items: center;
+}
+.btn_Confirm:hover,
+.btn_Confirm:focus {
+  background: #ff7506;
+}
+.btn_Confirm > span {
+  font-family: "Mulish";
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  color: #ffffff;
+  font-weight: 900;
+}

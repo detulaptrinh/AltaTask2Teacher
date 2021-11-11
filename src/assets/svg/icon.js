@@ -38,10 +38,14 @@ import IconSpeakbar1 from "./iconSpeakbar1.svg"
 import IconCircle from "./iconCircle.svg"
 import Icon3cham from "./icon3cham.svg"
 
+import IconInfo from "./fi_info.svg"
+
+
 // icon 5. Thông tin lớp hoc
 import IconInsert50 from "./icon-insert.svg"
 import IconFiCirclex from "./fi_x-circlex.svg"
 import IconFiEdit from "./fi_edit.svg"
+
 
 export {
     Bell,
@@ -79,7 +83,11 @@ export {
     MessageTeacher,
     PaperclipTeacher,
     IconUpload,
+
+    IconInfo,
+
     IconInsert50,
     IconFiCirclex,
     IconFiEdit
+
 };

@@ -1,0 +1,77 @@
+.table_user_notice .ant-table-pagination.ant-pagination {
+  margin: 16px 0;
+}
+.table_user_notice .ant-table-pagination-right {
+  justify-content: center;
+}
+.table_user_notice .ant-table-pagination-right {
+    justify-content: center;
+}
+.table_user_notice .ant-table-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  grid-row-gap: 8px;
+  row-gap: 8px;
+}
+.table_user_notice .ant-pagination {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+}
+.table_user_notice .ant-pagination-item-active a {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #fff9f4;
+  border-radius: 50%;
+  background: #ff7506;
+}
+.table_user_notice .ant-pagination a:hover {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #fff9f4;
+  border-radius: 50%;
+  background: #ff7506;
+}
+.table_user_notice .ant-pagination-options {
+  display: none;
+}
+.table_user_notice .ant-pagination li {
+  border: none;
+}
+.table_user_notice .ant-pagination-prev button {
+  border: none;
+}
+.table_user_notice .ant-pagination-prev button:hover {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #fff9f4;
+  border-radius: 50%;
+  background: #ff7506;
+}
+.table_user_notice .ant-pagination-next button {
+  border: none;
+}
+.table_user_notice .ant-pagination-next button:hover {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #fff9f4;
+  border-radius: 50%;
+  background: #ff7506;
+}
+.table_user_notice .ant-pagination-jump-prev a:hover {
+  color: rgba(0, 0, 0, 0.85);
+}
