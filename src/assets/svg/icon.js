@@ -36,7 +36,6 @@ import IconSpeakbar1 from "./iconSpeakbar1.svg"
 import IconCircle from "./iconCircle.svg"
 import Icon3cham from "./icon3cham.svg"
 
-import IconInfo from "./fi_info.svg"
 
 
 // icon 5. Thông tin lớp hoc
@@ -82,9 +81,6 @@ export {
     MessageTeacher,
     PaperclipTeacher,
     IconUpload,
-
-    IconInfo,
-
     IconInsert50,
     IconFiCirclex,
     IconFiEdit

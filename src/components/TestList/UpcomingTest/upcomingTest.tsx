@@ -1,6 +1,6 @@
 import { Button, Col, Row, Tabs, Select, DatePicker, Input, Table, Space, Tag, Pagination, InputNumber, Modal } from 'antd';
 import React, { Component, useState } from 'react';
-import { IconEdit, IconInfo } from '../../../assets/svg/icon';
+import { IconFiEdit, IconInfo } from '../../../assets/svg/icon';
 import { SearchOutlined } from '@ant-design/icons';
 import { upcomingTest } from '../data';
 import UpcomingTestCss from './upcomingTest.module.css'
@@ -103,7 +103,7 @@ const UpcomingTest = (): JSX.Element => {
             dataIndex: 'icon',
             render: () => (
                 <Space>
-                    <img src={IconEdit} className={UpcomingTestCss.edit_Icon} alt="" style={{ width: 32, height: 32 }} />
+                    <img src={IconFiEdit} className={UpcomingTestCss.edit_Icon} alt="" style={{ width: 32, height: 32 }} />
                     <img src={IconInfo} className={UpcomingTestCss.info_Icon} alt="" style={{ width: 32, height: 32 }} />
                 </Space>
             )

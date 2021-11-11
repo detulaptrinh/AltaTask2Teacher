@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import UngradedTestCss from './ungradedTest.module.css'
 import'./ungradedTest.css'
 import { SearchOutlined } from '@ant-design/icons';
-import { IconEdit, IconInfo } from '../../../assets/svg/icon';
+import { IconFiEdit, IconInfo } from '../../../assets/svg/icon';
 import { ungradedTest } from '../data';
 
 const { TabPane } = Tabs;
@@ -91,7 +91,7 @@ const columns = [
         dataIndex: 'icon',
         render: () => (
             <Space>
-                <img src={IconEdit} className={UngradedTestCss.edit_Icon} alt="" style={{ width: 32, height: 32 }} />
+                <img src={IconFiEdit} className={UngradedTestCss.edit_Icon} alt="" style={{ width: 32, height: 32 }} />
                 <img src={IconInfo} className={UngradedTestCss.info_Icon} alt="" style={{ width: 32, height: 32 }} />
             </Space>
         )

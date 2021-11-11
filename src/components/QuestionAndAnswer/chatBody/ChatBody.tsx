@@ -6,7 +6,7 @@ import { Tabs } from 'antd';
 import ChatListTopic from "../chatList/ChatListTopic";
 import BreadcrumbQA from "../breadcrumbQ&A/breadcrumb"
 import SwitchtabQA from "../switchtabsQ&A/switchtab"
-import Styles from "./ChatBody.module.css"
+import Styles from "./chatBody.module.css"
 
 
 const { TabPane } = Tabs;

@@ -4,7 +4,7 @@ import GradedTestCss from './gradedTest.module.css'
 import './gradedTest.css'
 
 import { SearchOutlined } from '@ant-design/icons';
-import { IconEdit, IconInfo } from '../../../assets/svg/icon';
+import { IconFiEdit, IconInfo } from '../../../assets/svg/icon';
 import { gradedTest } from '../data';
 const { TabPane } = Tabs;
 const { Option } = Select;
@@ -86,7 +86,7 @@ const columns = [
         dataIndex: 'icon',
         render: () => (
             <Space>
-                <img src={IconEdit} className={GradedTestCss.edit_Icon} alt="" style={{ width: 32, height: 32 }} />
+                <img src={IconFiEdit} className={GradedTestCss.edit_Icon} alt="" style={{ width: 32, height: 32 }} />
                 <img src={IconInfo} className={GradedTestCss.info_Icon} alt="" style={{ width: 32, height: 32 }} />
             </Space>
         )

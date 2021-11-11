@@ -4,7 +4,7 @@ import TestList from '../testList';
 import { SearchOutlined } from '@ant-design/icons';
 import AllTestsCss from './allTests.module.css'
 import './allTests.css'
-import { IconEdit, IconInfo } from '../../../assets/svg/icon';
+import { IconFiEdit, IconInfo } from '../../../assets/svg/icon';
 import { allTest } from '../data';
 
 
@@ -90,7 +90,7 @@ const AllTests = (): JSX.Element => {
             dataIndex: 'icon',
             render: () => (
                 <Space>
-                    <img src={IconEdit} className={AllTestsCss.edit_Icon} alt="" style={{ width: 32, height: 32 }} />
+                    <img src={IconFiEdit} className={AllTestsCss.edit_Icon} alt="" style={{ width: 32, height: 32 }} />
                     <img src={IconInfo} className={AllTestsCss.info_Icon} alt="" style={{ width: 32, height: 32 }} />
                 </Space>
             )

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Avatar from "./Avatar";
 import { EyesTeacher } from "../../../assets/svg/icon";
-import chatlistAllTopicCSS from "./ChatList.module.css"
+import chatlistAllTopicCSS from "./chatList.module.css"
 
 
 interface IRecipeProps {
