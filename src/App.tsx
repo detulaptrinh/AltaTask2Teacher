@@ -2,9 +2,8 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // componet menu
-import Menu from './components/menu/Menu';
+import Menu from './components/Menu/Menu';
 import TopBarUser from './components/top_bar_user/TopBarUser';
-
 //Question And Answer Components
 import ChatBody from './components/QuestionAndAnswer/chatBody/ChatBody';
 // component Thông tin lớp học
@@ -36,7 +35,7 @@ export default class App extends Component {
                                 
                                 {/* <Route path="/helpTeacher" component={HelpTeacher} />
                                 <Route path="/joinClass" component={JoinClassTeacher} /> */}
-                                <Route path="/" component={Dashboard} />
+                                <Route exact path="/" component={Dashboard} />
                                 <Route path="/chat" component={ChatBody} />
 
                                 {/* 5. Thông tin lớp học */}
