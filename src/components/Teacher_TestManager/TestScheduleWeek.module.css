@@ -49,6 +49,99 @@
     border-radius: 1.6rem 1.6rem 0 0;
 }
 
+.test_schedule_header_calendar_left {
+    margin-top: 2rem;
+    margin-left: 2.2rem;
+    display: flex;
+}
+
+.test_schedule_header_calendar_left_btn {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    width: 12.8rem;
+    height: 4rem;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Mulish;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+}
+
+.test_schedule_header_calendar_left span {
+    margin: 0.3rem 2.2rem 0 2.2rem;
+    font-family: Mulish;
+    font-size: 2.8rem;
+    line-height: 33px;
+    font-weight: 800;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+}
+
+.test_schedule_header_calendar_left i {
+    cursor: pointer;
+    margin-top: 0.5rem;
+    font-size: 2.8rem;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.test_schedule_header_calendar_right {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.test_schedule_header_calendar_right_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15.4rem;
+    height: 4rem;
+    background: #F0F3F6;
+    border-radius: 4.3rem;
+}
+
+.test_schedule_header_calendar_right_btn2 a,
+.test_schedule_header_calendar_right_btn1 a {
+    color: #373839;
+}
+
+.test_schedule_header_calendar_right_btn1 {
+    margin-left: -1rem;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    color: #373839;
+    opacity: 0.5;
+}
+
+.test_schedule_header_calendar_right_btn2 {
+    cursor: pointer;
+    width: 7.6rem;
+    height: 3.2rem;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px 2px rgba(138, 171, 201, 0.25);
+    border-radius: 2.7rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: 0.015em;
+    color: #373839;
+}
+
 .test_schedule_box_calendar {
     width: 137.2rem;
     height: 71.4rem;
@@ -126,32 +219,35 @@
     border-radius: 0.4rem;
 }
 
-.test_schedule_top_math {
+
+/*  */
+
+.test_schedule_top_history {
     margin-top: 2.7rem;
 }
 
-.test_schedule_top_math_title {
+.test_schedule_top_history_title {
     height: 2.3rem;
     display: flex;
 }
 
-.test_schedule_top_math_title i {
+.test_schedule_top_history_title i {
     margin-top: 0.7rem;
     font-size: 0.9rem !important;
-    color: #2EACEE;
+    color: #49C510;
 }
 
-.test_schedule_top_math_title p {
+.test_schedule_top_history_title p {
     margin-left: 0.9rem;
     font-family: Mulish;
     font-size: 1.8rem;
     line-height: 21px;
     font-weight: 800;
     letter-spacing: 0.015em;
-    color: #2EACEE;
+    color: #49C510;
 }
 
-.test_schedule_top_math_left {
+.test_schedule_top_history_left {
     margin-top: 0.6rem;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -161,7 +257,7 @@
     color: #373839;
 }
 
-.test_schedule_top_math_right {
+.test_schedule_top_history_right {
     margin-top: 0.6rem;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -172,33 +268,11 @@
     opacity: 0.5;
 }
 
-.test_schedule_top_english_title {
-    height: 2.3rem;
-    display: flex;
-}
 
-.test_schedule_top_english_title i {
-    margin-top: 0.7rem;
-    font-size: 0.9rem !important;
-    color: #FFB923;
-}
-
-.test_schedule_top_english_title p {
-    margin-left: 0.9rem;
-    font-family: Mulish;
-    font-size: 1.8rem;
-    line-height: 21px;
-    font-weight: 800;
-    letter-spacing: 0.015em;
-    color: #FFB923;
-}
-
-.test_schedule_top_english {
-    margin-top: 2.1rem;
-}
+/*  */
 
 .test_schedule_top_end {
-    margin-top: 7rem;
+    margin-top: 22rem;
     font-family: Source Sans Pro;
     font-style: italic;
     font-weight: normal;

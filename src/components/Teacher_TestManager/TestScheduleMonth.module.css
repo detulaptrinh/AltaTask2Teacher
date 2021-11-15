@@ -1,0 +1,303 @@
+.title {
+    font-family: Mulish;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    letter-spacing: 0.015em;
+    color: #373839;
+    font-weight: 800;
+}
+
+.select_block p {
+    margin-top: 3rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: #373839;
+}
+
+.schedule_select_block {
+    width: 113px;
+    height: 32px;
+    background: #FFFFFF;
+    /* border: 1px solid #373839; */
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #373839;
+}
+
+
+/*  */
+
+.test_schedule_box_left {
+    float: left;
+    margin-top: 2.5rem;
+    box-shadow: 4px 4px 25px 4px rgba(154, 202, 245, 0.25);
+}
+
+.test_schedule_header_calendar {
+    width: 137.2rem;
+    height: 8rem;
+    background: #373839;
+    border-radius: 1.6rem 1.6rem 0 0;
+}
+
+.test_schedule_header_calendar_left {
+    margin-top: 2rem;
+    margin-left: 2.2rem;
+    display: flex;
+}
+
+.test_schedule_header_calendar_left span {
+    margin: 0.3rem 2.2rem 0 2.2rem;
+    font-family: Mulish;
+    font-size: 2.8rem;
+    line-height: 33px;
+    font-weight: 800;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+}
+
+.test_schedule_header_calendar_left i {
+    cursor: pointer;
+    margin-top: 0.5rem;
+    font-size: 2.8rem;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.test_schedule_header_calendar_right {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.test_schedule_header_calendar_right_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15.4rem;
+    height: 4rem;
+    background: #F0F3F6;
+    border-radius: 4.3rem;
+}
+
+.test_schedule_header_calendar_right_btn2 a,
+.test_schedule_header_calendar_right_btn1 a {
+    color: #373839;
+}
+
+.test_schedule_header_calendar_right_btn1 {
+    margin-left: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    color: #373839;
+    opacity: 0.5;
+}
+
+.test_schedule_header_calendar_right_btn2 {
+    cursor: pointer;
+    width: 7.6rem;
+    height: 3.2rem;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px 2px rgba(138, 171, 201, 0.25);
+    border-radius: 2.7rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: 0.015em;
+    color: #373839;
+}
+
+.test_schedule_box_calendar {
+    width: 137.2rem;
+    height: 71.4rem;
+    border-radius: 0 0 1.6rem 1.6rem;
+}
+
+.events {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.events .ant-badge-status {
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.notes_month {
+    font-size: 28px;
+    text-align: center;
+}
+
+.notes_month section {
+    font-size: 28px;
+}
+
+
+/*  */
+
+.test_schedule_box_right {
+    float: right;
+    margin-top: 2.5rem;
+    width: calc(100% - 141.2rem);
+    height: 79.4rem;
+}
+
+.test_schedule_top {
+    padding: 2.4rem;
+    height: 54.4rem;
+    box-shadow: 4px 4px 25px 4px rgba(154, 202, 245, 0.25);
+    border-radius: 1.6rem;
+}
+
+.test_schedule_top_calendar_left {
+    font-family: Mulish;
+    font-size: 6.4rem;
+    line-height: 7.5rem;
+    letter-spacing: 0.015em;
+    font-weight: 800;
+    color: #373839;
+}
+
+.test_schedule_top_calendar_right {
+    margin-top: 0.5rem;
+}
+
+.test_schedule_top_calendar_right p {
+    margin: 0;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    color: #373839;
+}
+
+.test_schedule_top_bot {
+    margin-top: 1rem;
+    width: 100%;
+    height: 0.6rem;
+    background: #FFA75E;
+    border-radius: 0.4rem;
+}
+
+.test_schedule_top_math {
+    margin-top: 2.7rem;
+}
+
+.test_schedule_top_math_title {
+    height: 2.3rem;
+    display: flex;
+}
+
+.test_schedule_top_math_title i {
+    margin-top: 0.7rem;
+    font-size: 0.9rem !important;
+    color: #2EACEE;
+}
+
+.test_schedule_top_math_title p {
+    margin-left: 0.9rem;
+    font-family: Mulish;
+    font-size: 1.8rem;
+    line-height: 21px;
+    font-weight: 800;
+    letter-spacing: 0.015em;
+    color: #2EACEE;
+}
+
+.test_schedule_top_math_left {
+    margin-top: 0.6rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #373839;
+}
+
+.test_schedule_top_math_right {
+    margin-top: 0.6rem;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    color: #373839;
+    opacity: 0.5;
+}
+
+.test_schedule_top_english_title {
+    height: 2.3rem;
+    display: flex;
+}
+
+.test_schedule_top_english_title i {
+    margin-top: 0.7rem;
+    font-size: 0.9rem !important;
+    color: #FFB923;
+}
+
+.test_schedule_top_english_title p {
+    margin-left: 0.9rem;
+    font-family: Mulish;
+    font-size: 1.8rem;
+    line-height: 21px;
+    font-weight: 800;
+    letter-spacing: 0.015em;
+    color: #FFB923;
+}
+
+.test_schedule_top_english {
+    margin-top: 2.1rem;
+}
+
+.test_schedule_top_end {
+    margin-top: 7rem;
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #FF5400;
+    opacity: 0.5;
+}
+
+.test_schedule_bottom {
+    margin-top: 3.2rem;
+    padding: 2.4rem;
+    height: 21.9rem;
+    box-shadow: 4px 4px 25px 4px rgba(154, 202, 245, 0.25);
+    border-radius: 1.6rem;
+}
+
+.test_schedule_bottom p {
+    font-family: Mulish;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.015em;
+    font-weight: 800;
+    color: #373839;
+}

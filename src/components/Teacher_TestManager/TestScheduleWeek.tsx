@@ -1,34 +1,45 @@
 import React, { Component } from 'react';
-import TestScheduleCss from './TestSchedule.module.css';
+import TestScheduleCss from './TestScheduleWeek.module.css';
 import './SelectCalendar.css';
-import { Row, Col, Input, Radio, Select, Checkbox, DatePicker, Badge, Calendar } from 'antd';
-import { IconUpload } from "../../assets/svg/icon";
+import { Row, Col, Select, Checkbox, Calendar } from 'antd';
+import { Link } from "react-router-dom";
 
 const { Option } = Select;
 
-const TestSchedule = (): JSX.Element => {
+const TestScheduleWeek = (): JSX.Element => {
     function getListData(value: any) {
         let listData;
         switch (value.date()) {
-            case 8:
+            case 6:
                 listData = [
-                    { content: 'This is warning event.' },
-                    { content: 'This is usual event.' },
+                    { content: 'Vật lý - 15 phút' },
+                    { content: '10C6' },
                 ];
                 break;
-            case 10:
+            case 9:
                 listData = [
-                    { content: 'This is warning event.' },
-                    { content: 'This is usual event.' },
-                    { content: 'This is error event.' },
+                    { content: 'Lịch sử - Giữa kì II' },
+                    { content: 'Khối 10' },
                 ];
                 break;
-            case 15:
+            case 12:
                 listData = [
-                    { content: 'This is error event 1.' },
-                    { content: 'This is error event 2.' },
-                    { content: 'This is error event 3.' },
-                    { content: 'This is error event 4.' },
+                    { content: 'Toán đại số - 45 phút' },
+                    { content: 'Khối 10' },
+                    { content: 'Tiếng anh - 15 phút' },
+                    { content: '10C1, 10C2' },
+                ];
+                break;
+            case 17:
+                listData = [
+                    { content: 'Tiếng anh - 45 phút' },
+                    { content: '10C6, 10C8' },
+                ];
+                break;
+            case 27:
+                listData = [
+                    { content: 'Vật lý - Cuối kì II' },
+                    { content: 'Khối 10' },
                 ];
                 break;
             default:
@@ -79,7 +90,25 @@ const TestSchedule = (): JSX.Element => {
             </div>
             <div className={TestScheduleCss.test_schedule_box_left}>
                 <div className={TestScheduleCss.test_schedule_header_calendar}>
-
+                    <Row>
+                        <Col className={TestScheduleCss.test_schedule_header_calendar_left} span={11}>
+                            <button className={TestScheduleCss.test_schedule_header_calendar_left_btn}>
+                                Hôm nay
+                            </button>
+                            <span>8 - 14 Tháng 8</span>
+                            <i className='bx bx-chevron-down'></i>
+                        </Col>
+                        <Col className={TestScheduleCss.test_schedule_header_calendar_right} span={12}>
+                            <div className={TestScheduleCss.test_schedule_header_calendar_right_btn}>
+                                <button className={TestScheduleCss.test_schedule_header_calendar_right_btn2}>
+                                    <Link to="/TestScheduleWeek">Tuần</Link>
+                                </button>
+                                <button className={TestScheduleCss.test_schedule_header_calendar_right_btn1}>
+                                    <Link to="/TestScheduleMonth">Tháng</Link>
+                                </button>
+                            </div>
+                        </Col>
+                    </Row>
                 </div>
                 <div className="test_schedule_box_calendar">
                     <Calendar
@@ -102,48 +131,26 @@ const TestSchedule = (): JSX.Element => {
                         </Row>
                         <div className={TestScheduleCss.test_schedule_top_bot}></div>
                     </div>
-                    <div className={TestScheduleCss.test_schedule_top_math}>
-                        <div className={TestScheduleCss.test_schedule_top_math_title}>
+                    <div className={TestScheduleCss.test_schedule_top_history}>
+                        <div className={TestScheduleCss.test_schedule_top_history_title}>
                             <i className='bx bxs-circle' ></i>
-                            <p>Toán Đại Số</p>
+                            <p>Lịch sử</p>
                         </div>
                         <Row>
-                            <Col className={TestScheduleCss.test_schedule_top_math_left} span={10}>Đối tượng:</Col>
-                            <Col className={TestScheduleCss.test_schedule_top_math_right} span={14}>Kiểm tra tập trung</Col>
+                            <Col className={TestScheduleCss.test_schedule_top_history_left} span={10}>Đối tượng:</Col>
+                            <Col className={TestScheduleCss.test_schedule_top_history_right} span={14}>Kiểm tra tập trung</Col>
                         </Row>
                         <Row>
-                            <Col className={TestScheduleCss.test_schedule_top_math_left} span={10}>Thời lượng:</Col>
-                            <Col className={TestScheduleCss.test_schedule_top_math_right} span={14}>45 phút</Col>
+                            <Col className={TestScheduleCss.test_schedule_top_history_left} span={10}>Thời lượng:</Col>
+                            <Col className={TestScheduleCss.test_schedule_top_history_right} span={14}>45 phút</Col>
                         </Row>
                         <Row>
-                            <Col className={TestScheduleCss.test_schedule_top_math_left} span={10}>Nội dung:</Col>
-                            <Col className={TestScheduleCss.test_schedule_top_math_right} span={14}>Ôn tập chương 5</Col>
+                            <Col className={TestScheduleCss.test_schedule_top_history_left} span={10}>Nội dung:</Col>
+                            <Col className={TestScheduleCss.test_schedule_top_history_right} span={14}>Ôn tập chương 5</Col>
                         </Row>
                         <Row>
-                            <Col className={TestScheduleCss.test_schedule_top_math_left} span={10}>Hình thức:</Col>
-                            <Col className={TestScheduleCss.test_schedule_top_math_right} span={14}>Tự luận</Col>
-                        </Row>
-                    </div>
-                    <div className={TestScheduleCss.test_schedule_top_english}>
-                        <div className={TestScheduleCss.test_schedule_top_english_title}>
-                            <i className='bx bxs-circle' ></i>
-                            <p>Toán Đại Số</p>
-                        </div>
-                        <Row>
-                            <Col className={TestScheduleCss.test_schedule_top_math_left} span={10}>Đối tượng:</Col>
-                            <Col className={TestScheduleCss.test_schedule_top_math_right} span={14}>10C1, 10C2</Col>
-                        </Row>
-                        <Row>
-                            <Col className={TestScheduleCss.test_schedule_top_math_left} span={10}>Thời lượng:</Col>
-                            <Col className={TestScheduleCss.test_schedule_top_math_right} span={14}>15 phút</Col>
-                        </Row>
-                        <Row>
-                            <Col className={TestScheduleCss.test_schedule_top_math_left} span={10}>Nội dung:</Col>
-                            <Col className={TestScheduleCss.test_schedule_top_math_right} span={14}>Academic</Col>
-                        </Row>
-                        <Row>
-                            <Col className={TestScheduleCss.test_schedule_top_math_left} span={10}>Hình thức:</Col>
-                            <Col className={TestScheduleCss.test_schedule_top_math_right} span={14}>Trắc nghiệm</Col>
+                            <Col className={TestScheduleCss.test_schedule_top_history_left} span={10}>Hình thức:</Col>
+                            <Col className={TestScheduleCss.test_schedule_top_history_right} span={14}>Tự luận</Col>
                         </Row>
                     </div>
                     <p className={TestScheduleCss.test_schedule_top_end}>Cố gắng ôn tập cho các bài kiểm tra sắp tới nhé!</p>
@@ -152,15 +159,10 @@ const TestSchedule = (): JSX.Element => {
                     <p>Lọc lịch thi</p>
                     <Checkbox.Group>
                         <Row className={TestScheduleCss.text_right_checkbox_rules}>
-
                             <Checkbox className="calendar_checkbox" value="1">Kiểm tra 15 phút</Checkbox>
-
                             <Checkbox className="calendar_checkbox" value="2">Kiểm tra 45 phút</Checkbox>
-
                             <Checkbox className="calendar_checkbox" value="3">Kiểm tra giữa kì</Checkbox>
-
                             <Checkbox className="calendar_checkbox" value="4">Kiểm tra cuối kì</Checkbox>
-
                         </Row>
                     </Checkbox.Group>
                 </div>
@@ -169,7 +171,7 @@ const TestSchedule = (): JSX.Element => {
         </>
     );
 }
-export default TestSchedule
+export default TestScheduleWeek
 
 // checkbox
 function onChange(e: any) {
