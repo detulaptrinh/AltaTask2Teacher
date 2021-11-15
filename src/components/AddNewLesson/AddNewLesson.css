@@ -1,0 +1,16 @@
+    /* select */
+    
+    .addnewlesson .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+        border: 1px solid #C9C4C0;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+    
+    .addnewlesson .ant-select-selection-search {
+        margin-right: 0.5rem;
+        border-right: 1px solid #C9C4C0;
+    }
+    
+    .addnewlesson .ant-select-arrow {
+        color: #FF7506;
+    }

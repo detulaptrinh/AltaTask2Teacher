@@ -35,6 +35,7 @@ import IconSpeakbar from "./iconSpeakbar.svg"
 import IconSpeakbar1 from "./iconSpeakbar1.svg"
 import IconCircle from "./iconCircle.svg"
 import Icon3cham from "./icon3cham.svg"
+import IconVisibility from "./visibilityIcon.svg"
 
 
 
@@ -83,6 +84,7 @@ export {
     IconUpload,
     IconInsert50,
     IconFiCirclex,
-    IconFiEdit
+    IconFiEdit,
+    IconVisibility
 
 };

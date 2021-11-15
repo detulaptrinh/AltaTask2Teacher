@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NewTestManagerCss from './NewTestManager.module.css';
-import { Row, Col, Input, Radio, Select, Checkbox, DatePicker, Space } from 'antd';
+import './SelectCustom.css';
+import { Row, Col, Input, Radio, Select, Checkbox, DatePicker } from 'antd';
 import { IconUpload } from "../../assets/svg/icon";
 
 const { Option } = Select;

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // componet menu
-import Menu from './components/Menu/Menu';
+import Menu from './components/menu/Menu';
 import TopBarUser from './components/top_bar_user/TopBarUser';
 //Question And Answer Components
 import ChatBody from './components/QuestionAndAnswer/chatBody/ChatBody';
@@ -17,6 +17,11 @@ import Dashboard from './components/Dashboard/Dashboard';
 import TestList from './components/TestList/testList';
 import AllTests from './components/TestList/AllTests/allTests';
 import Notifications from './components/Notificationss/notifications';
+
+import AddNewLesson from './components/AddNewLesson/AddNewLesson';
+import NewTestManager from './components/AddNewTestManager/NewTestManager';
+import TestScheduleMonth from './components/TestSchedule/TestScheduleMonth';
+import TestScheduleWeek from './components/TestSchedule/TestScheduleWeek';
 export default class App extends Component {
     render() {
         return (
@@ -32,7 +37,7 @@ export default class App extends Component {
                         <div className="app-right">
                             <TopBarUser />
                             <main>
-                                
+
                                 {/* <Route path="/helpTeacher" component={HelpTeacher} />
                                 <Route path="/joinClass" component={JoinClassTeacher} /> */}
                                 <Route exact path="/" component={Dashboard} />
@@ -48,7 +53,10 @@ export default class App extends Component {
                                 <Route path="/testlist" component={TestList} />
                                 <Route path="/notifications" component={Notifications} />
 
-
+                                <Route path="/newtestmanager" component={NewTestManager} />
+                                <Route path="/testschedulemonth" component={TestScheduleMonth} />
+                                <Route path="/testscheduleweek" component={TestScheduleWeek} />
+                                <Route path="/addnewlesson" component={AddNewLesson} />
 
                             </main>
                         </div>
