@@ -7,7 +7,7 @@ const { Option } = Select;
 
 const NewTestManager = (): JSX.Element => {
     return (
-        <>
+        <div className="newtestmanager">
             <Row>
                 <Col span={24}>
                     <div className={NewTestManagerCss.title}>
@@ -238,7 +238,7 @@ const NewTestManager = (): JSX.Element => {
                 </button>
             </div>
 
-        </>
+        </div>
     );
 }
 export default NewTestManager
