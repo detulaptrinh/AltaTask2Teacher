@@ -1,0 +1,141 @@
+/* BREADCRUMB */
+.title_Left {
+  position: static;
+  width: 11rem;
+  height: 2.3rem;
+  left: 1rem;
+  top: 1.85rem;
+  font-family: "Mulish";
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.015em;
+  color: #c9c4c0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0rem 1.6rem;
+}
+.title_Right {
+  position: static;
+  width: 55.7rem;
+  height: 6rem;
+  left: 17.6rem;
+  top: 0rem;
+  font-family: "Mulish";
+  font-weight: bold;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  letter-spacing: 0.015em;
+  color: #373839;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0rem, 1.6rem;
+}
+
+/* BOTTON NEW TEST */
+
+.btn_Group {
+  position: absolute;
+  left: 1668px;
+  top: 161px;
+}
+
+.btn_New_Test:hover,
+.btn_New_Test:focus {
+  background: #ff7506;
+}
+.btn_New_Test {
+  padding: 0rem;
+  position: absolute;
+  width: 192px;
+  height: 52px;
+  background: #ff7506;
+  border-radius: 0.4rem;
+}
+
+.btn_New_Test > span {
+  font-family: "Mulish";
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.015em;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0rem 1rem;
+}
+
+.btn_Send {
+  position: absolute;
+  width: 160px;
+  height: 52px;
+  left: 198px;
+  top: 630px;
+  background: #ff7506;
+  border-radius: 0.8rem;
+}
+.btn_Send:hover,
+.btn_Send:focus {
+  background: #ff7506;
+}
+.btn_Send > span {
+  font-family: "Mulish";
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.input_theme {
+  position: absolute;
+  width: 524px;
+  height: 40px;
+  left: 32px;
+  top: 128px;
+  opacity: 0.5;
+  border: 1px solid #373839;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.input_receiving {
+  position: absolute;
+  width: 524px;
+  height: 40px;
+  left: 32px;
+  top: 80px;
+  opacity: 0.5;
+  border: 1px solid #373839;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.input_text_area_container {
+  position: absolute;
+  width: 524px;
+  height: 422px;
+  left: 32px;
+  top: 176px;
+  opacity: 0.5;
+  border: 1px solid #373839;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.img_input {
+  width: 395px;
+  height: 32px;
+  margin-top: 13px;
+  margin-left: 21px;
+}
+.block_1 {
+  position: absolute;
+  width: 477px;
+  height: 0px;
+  left: 24px;
+  top: 54px;
+  opacity: 0.5;
+  border: 1px solid #c9c4c0;
+}

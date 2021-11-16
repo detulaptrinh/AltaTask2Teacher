@@ -1,7 +1,7 @@
 import { Button, Col, Row, Tabs, Select, DatePicker, Input, Table, Space, Tag, Pagination, InputNumber } from 'antd';
 import React, { Component } from 'react';
-import GradedTestCss from './gradedTest.module.css'
-import './gradedTest.css'
+import GradedTestCss from '../moduleCss/gradedTest.module.css'
+import '../css/gradedTest.css'
 
 import { SearchOutlined } from '@ant-design/icons';
 import { IconFiEdit, IconInfo } from '../../../assets/svg/icon';

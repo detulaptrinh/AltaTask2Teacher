@@ -7,6 +7,7 @@ import HocVien5 from "./hocvien5.png";
 import HocVien3 from "./hocvien3.png";
 import HocVien2 from "./hocvien2.png";
 import imgNotice from "./imgNotice1.png"
+import fontChangerBar from "./fontChangerBar.png"
 export {
     HocVien10,
     HocVien1,
@@ -17,4 +18,6 @@ export {
     HocVien3,
     HocVien2,
     imgNotice,
+    fontChangerBar,
+
 }    

@@ -1,12 +1,12 @@
 import { Breadcrumb, Button, Col, Modal, Row, Tabs } from 'antd';
 import React, { Component } from 'react';
-import AllTests from './AllTests/allTests';
-import GradedTest from './Graded Test/gradedTest';
-import TestListCss from './testList.module.css'
-import './testList.css'
+import AllTests from './allTests';
+import GradedTest from './gradedTest';
+import TestListCss from '../moduleCss/testList.module.css'
+import '../css/testList.css'
 
-import UngradedTest from './UngradedTest/ungradedTest';
-import UpcomingTest from './UpcomingTest/upcomingTest';
+import UngradedTest from './ungradedTest';
+import UpcomingTest from './upcomingTest';
 import { Link } from 'react-router-dom';
 const { TabPane } = Tabs;
 

@@ -1,0 +1,36 @@
+/* SEARCH */
+.box_Searchs {
+  position: relative;
+  left: -8rem;
+  float: left;
+}
+.systemNoticeCss {
+  width: 42.826rem;
+  height: 4rem;
+  border-radius: 2.4rem;
+  padding: 0.4rem 1.1rem;
+  color: #c5c5c5;
+  font-size: 1.4rem;
+  line-height: 1.5715rem;
+  background-color: #f0f3f6;
+  background-image: none;
+  border: 0.1rem solid #f0f3f6;
+  transition: all 0.3s;
+  display: inline-flex;
+  line-height: 3.2rem;
+}
+
+.systemNoticeCss input {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #bdbdbd;
+  opacity: 0.5;
+  background-color: #efefef;
+}
+.dropdown_MoreOutlined {
+  position: relative;
+  left: 12rem;
+}
