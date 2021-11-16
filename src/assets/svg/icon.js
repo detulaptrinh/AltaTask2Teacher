@@ -44,6 +44,7 @@ import IconInsert50 from "./icon-insert.svg"
 import IconFiCirclex from "./fi_x-circlex.svg"
 import IconFiEdit from "./fi_edit.svg"
 
+import IconAdd from "./iconAdd.svg"
 
 export {
     Bell,
@@ -85,6 +86,7 @@ export {
     IconInsert50,
     IconFiCirclex,
     IconFiEdit,
-    IconVisibility
+    IconVisibility,
 
+    IconAdd
 };

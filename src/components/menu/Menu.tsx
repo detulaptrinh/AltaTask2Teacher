@@ -37,7 +37,7 @@ export default class Menu extends Component {
                             <ul className="sub-menu-1">
                                 <li><Link to="">Danh sách lớp hoc</Link></li>
                                 <li><Link to="">Thêm buổi học mới</Link></li>
-                                <li><Link to="">Tham gia vào lớp học</Link></li>
+                                <li><Link to="/join">Tham gia vào lớp học</Link></li>
                             </ul>
                         </li>
                         <li>
@@ -51,7 +51,7 @@ export default class Menu extends Component {
                         </li>
                         <li><p><Link to="">Lịch thi</Link></p></li>
                         <li><p><Link to="">Thông báo</Link></p></li>
-                        <li><p><Link to="">Trợ giúp</Link></p></li>
+                        <li><p><Link to="/helpTeacher">Trợ giúp</Link></p></li>
                     </ul>
                 </div>
             </div>

@@ -8,8 +8,10 @@ import TopBarUser from './components/top_bar_user/TopBarUser';
 import ChatBody from './components/QuestionAndAnswer/chatBody/ChatBody';
 // component Thông tin lớp học
 import ThongTinLopHoc from './components/Teacher_XemChiTiet_ThongTinLopHoc/ThongTinLopHoc';
+
 import HelpTeacher from './components/HelpTeacher/HelpTeacherBox';
 import JoinClassTeacher from './components/JoinClassTeacher/JoinClassTeacher';
+import Boxjoin from './components/JoinClassTeacher/JoinClass/BoxJoin';
 
 
 import "./App.css"; // css
@@ -43,13 +45,20 @@ export default class App extends Component {
                                 {/* <Route path="/helpTeacher" component={HelpTeacher} />
                                 <Route path="/joinClass" component={JoinClassTeacher} /> */}
                                 <Route exact path="/" component={Dashboard} />
+                                
+                                {/* 5. Thông tin lớp học */}
+                                                          
+                                <Route path="/" component={Dashboard} />
                                 <Route path="/chat" component={ChatBody} />
 
                                 {/* 5. Thông tin lớp học */}
                                 <Route path="/class" component={ThongTinLopHoc} />
 
 
+                                
                                 <Route path="/joinclass" component={JoinClassTeacher} />
+                                <Route path="/helpTeacher" component={HelpTeacher} />  
+                                <Route path="/join" component={Boxjoin} />  
 
                                 {/* Tri */}
                                 <Route path="/testlist" component={TestList} />
