@@ -54,7 +54,7 @@ export default class App extends Component {
                                 {/* Tri */}
                                 <Route path="/testlist" component={TestList} />
                                 <Route path="/notifications" component={Notifications} />
-
+                                <Route path="/allTest" component={AllTests} />
                                 <Route path="/newtestmanager" component={NewTestManager} />
                                 <Route path="/testschedulemonth" component={TestScheduleMonth} />
                                 <Route path="/testscheduleweek" component={TestScheduleWeek} />
