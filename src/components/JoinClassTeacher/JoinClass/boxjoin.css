@@ -1,0 +1,202 @@
+.box_join{
+    /* Rectangle 23 */
+
+
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+
+    background: #686868;
+    opacity: 0.5;
+}
+.box_join_text_thamgialophoc{
+    /* Tham gia lớp học */
+
+    width: 742px;
+    height: 35px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+
+    /* LMS Student / H2 */
+    font-weight: 800;
+    font-family: Mulish;
+    font-size: 48px;
+    line-height: 33px;
+    letter-spacing: 0.015em;
+
+    /* /Orange / 7 */
+
+    color: #000000;
+}
+.col_join{
+    /* tham gia lớp học */
+
+
+    position: absolute;
+    width: 418px;
+    height: 348px;
+    left: 751px;
+    top: 366px;
+
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.box_join_text_thamgia{
+    /* Tham gia lớp học */
+
+    position: absolute;
+    width: 242px;
+    height: 35px;
+    left: 89px;
+    top: 24px;
+
+    /* LMS Student / H2 */
+
+    font-family: Mulish;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.015em;
+
+    /* /Orange / 7 */
+
+    color: #000000;
+}
+.col_input_join_id{
+    /* id lớp */
+
+    padding-left: 2rem;
+    position: absolute;
+    width: 370px;
+    height: 54px;
+    left: 24px;
+    top: 83px;
+    font-size: 2rem;
+    background: #FFFFFF;
+    /* Inactivated Icon */
+
+    border: 1px solid #C9C4C0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.col_input_join_pass{
+    /* mat khau */
+
+    padding-left: 2rem;
+    position: absolute;
+    width: 370px;
+    height: 54px;
+    left: 24px;
+    top: 153px;
+    font-size: 2rem;
+    background: #FFFFFF;
+    /* Inactivated Icon */
+
+    border: 1px solid #C9C4C0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.col_join_btn_huy{
+    /* button */
+
+
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 160px;
+    height: 52px;
+    left: 24px;
+    top: 256px;
+
+    /* Grey/5 */
+
+    background: #F2F2F2;
+    border-radius: 8px;
+}
+.col_join_text_huy{
+    /* Button */
+
+    font-weight: bold;
+    position: static;
+    width: 85px;
+    height: 23px;
+    text-align: center;
+    left: calc(50% - 85px/2);
+    top: calc(50% - 23px/2);
+
+    /* LMS Student/Sub-header */
+
+    font-family: Mulish;
+    font-size: 20px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+
+    color: #373839;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+.col_join_btn_thamgia{
+    /* button */
+
+
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 160px;
+    height: 52px;
+    left: 234px;
+    top: 256px;
+
+    /* Orange/4 */
+
+    background: #FF7506;
+    border-radius: 8px;
+}
+.col_join_text_thamgia{
+    /* Button */
+
+    font-weight: bold;
+    position: static;
+    width: 110px;
+    text-align: center;
+    height: 23px;
+    left: calc(50% - 85px/2);
+    top: calc(50% - 23px/2);
+
+    /* LMS Student/Sub-header */
+
+    font-family: Mulish;
+    font-size: 20px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}

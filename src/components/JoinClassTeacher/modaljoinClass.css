@@ -1,0 +1,381 @@
+.joinclass_modal .ant-modal-close {
+    display: none;
+  }
+  
+  .joinclass_modal .ant-modal-header {
+    text-align: center;
+    border-bottom: none;
+    padding: 0;
+  }
+  
+  .joinclass_modal .ant-modal-header .ant-modal-title {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.015em;
+    color: #373839;
+  }
+  
+  .joinclass_modal .ant-modal-body {
+    padding: 0;
+  }
+  
+  .joinclass_modal .ant-modal-footer {
+    display: flex;
+    justify-content: center;
+    border-top: none;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .joinclass_modal .ant-modal-footer .ant-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 52px;
+    background: #f2f2f2;
+    border-color: #f2f2f2;
+    border-radius: 8px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.015em;
+    color: #373839;
+  }
+  
+  .joinclass_modal .ant-modal-footer .ant-btn.ant-btn-primary {
+    background: #ff7506;
+    border-color: #ff7506;
+    color: #fff;
+    margin-left: 2.1rem;
+  }
+  
+  .joinclass_modal-logout.ant-modal {
+    width: 435px !important;
+  }
+  
+  .joinclass_modal-logout .ant-modal-content {
+    border-radius: 18px;
+    padding: 2.6rem 3.8rem 4rem;
+  }
+  
+  .joinclass_modal-logout .ant-modal-header {
+    margin-bottom: 1.6rem;
+  }
+  
+  .joinclass_modal-logout .joinclass_modal-logout-desc {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    color: #373839;
+    margin-bottom: 3.2rem;
+    padding-bottom: 0;
+  }
+/* model add */
+.joinclass_form-btns {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3.2rem;
+}
+
+.joinclass_form-btns .ant-btn {
+  width: 160px;
+  height: 52px;
+  background: #f2f2f2;
+  border-color: #f2f2f2;
+  border-radius: 8px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.015em;
+  color: #373839;
+}
+
+.joinclass_form-btns .ant-btn.joinclass_form-submit {
+  background: #ff7506;
+  border-color: #ff7506;
+  color: #fff;
+  margin-left: 3.2rem;
+ 
+}
+.joinclass_modal-add-edit.ant-modal {
+  width: 484px !important;
+}
+
+.joinclass_modal-add-edit .ant-modal-content {
+  border-radius: 16px;
+  padding: 2.4rem 6.4rem 4rem;
+  width: auto;
+  height: auto;
+}
+
+.joinclass_modal-add-edit .ant-modal-header {
+  margin-bottom: 2.4rem;
+}
+
+.joinclass_modal-add-edit .ant-modal-footer {
+  display: none;
+}
+
+.joinclass_modal-add-edit .ant-row {
+  align-items: center;
+}
+
+.joinclass_modal-add-edit .ant-form-item {
+  margin-bottom: 1.6rem;
+}
+
+.joinclass_modal-add-edit .ant-form-item:last-child {
+  margin-bottom: 0;
+}
+
+.joinclass_modal-add-edit .ant-form-horizontal .ant-form-item-label {
+  text-align: left;
+}
+/* tim kiem */
+.joinclass_col-search{
+  width: 100%;
+  height: 9rem;
+}
+.joinclass_table-headers-search{
+  width: 100%;
+  height: 4rem;
+  border-radius: 2.4rem;
+  position: relative;
+  padding: 0.4rem 1.1rem;
+  color: #c5c5c5;
+  font-size: 1.4rem;
+  line-height: 1.5715;
+  background-color: #f0f3f6;
+  background-image: none;
+  border: 0rem solid #f0f3f6;
+  border-radius: 4.2rem;
+  transition: all 0.3s;
+  display: inline-flex;
+  margin-top: 1rem;
+
+}
+.joinclass_table-headers-search input {
+  font-family: "Source Sans Pro";
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 8.7rem;
+  letter-spacing: 0em;
+  text-align: left;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0rem;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: #f0f3f6;
+  margin: 0em;
+  padding: 0.1rem 0.2rem;
+}
+
+.joinclass_table-headers-search  .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+
+  border-right-width: 0.1rem !important;
+  z-index: 1;
+}
+.joinclass_table-headers-search  .ant-input-affix-wrapper:hover {
+  border-right-width: 0.1rem !important;
+  display: block;
+}
+.joinclass_col-modal-student{
+
+  width: 354px;
+  height: 50px;
+  margin-top: -2rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(154, 202, 245, 0.25);
+  border-radius: 8px;
+}
+.joinclass_image-modal-add{
+  margin-left: 2rem;
+  margin-top: 0.6rem;
+}
+.joinclass_text-modal-add{
+
+  width: 164px;
+  height: 21px;
+  margin-left: 74px;
+  margin-top: -2.8rem;
+
+  /* LMS Student / Content */
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+
+
+  color: #000000;
+}
+.joinclass_icon-modal-add{
+  float: right;
+  margin-top: -3.5rem;
+  margin-right: 1.5rem;
+}
+.joinclass_col-modal-student-trinhtrinh{
+  width: 354px;
+  height: 50px;
+  margin-top: 2rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(154, 202, 245, 0.25);
+  border-radius: 8px;
+}
+.joinclass_col-modal-student-baoloc{
+  width: 354px;
+  height: 50px;
+  margin-top: 2rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(154, 202, 245, 0.25);
+  border-radius: 8px;
+}
+.joinclass_col-modal-student-baolam{
+  width: 354px;
+  height: 50px;
+  margin-top: 2rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(154, 202, 245, 0.25);
+  border-radius: 8px;
+}
+.joinclass_icon-close{
+  margin-top: -7rem;
+  margin-right: -5rem;
+  float: right;
+  font-size: 20px;
+}
+  /* modal setting */
+
+
+  .joinclass_modal_setting .ant-modal-close {
+    display: none;
+  }
+  
+  .joinclass_modal_setting .ant-modal-header {
+    text-align: center;
+    border-bottom: none;
+    padding: 0;
+  }
+  
+  
+  .joinclass_modal_setting .ant-modal-body {
+    padding: 0;
+  }
+  
+  .joinclass_modal_setting .ant-modal-footer {
+    display: flex;
+    justify-content: center;
+    border-top: none;
+    text-align: center;
+    padding: 0;
+  }
+  .joinclass_modal-setting-edit.ant-modal {
+    width: 384px !important;
+  }
+  
+  .joinclass_modal-setting-edit .ant-modal-content {
+    border-radius: 8px;
+    padding: 2.4rem 6.4rem 4rem;
+    width: auto;
+    height: auto;
+  }
+  
+  .joinclass_modal-setting-edit .ant-modal-header {
+    margin-bottom: 2.4rem;
+  }
+  
+  .joinclass_modal-setting-edit .ant-modal-footer {
+    display: none;
+  }
+  
+  .joinclass_modal-setting-edit .ant-row {
+    align-items: center;
+  }
+  
+  .joinclass_modal-setting-edit .ant-form-item {
+    margin-bottom: 1.6rem;
+  }
+  
+  .joinclass_modal-setting-edit .ant-form-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .joinclass_modal-setting-edit .ant-form-horizontal .ant-form-item-label {
+    text-align: left;
+  }
+  .joinclass_modal_setting_text_voice{
+    /* Tắt tiếng tất cả học viên */
+
+  width: 100%;
+  height: 21px;
+
+
+  /* LMS Student / Content */
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+
+
+  /* /Orange / 7 */
+
+  color: #373839;
+  }
+  .joinclass_modal_setting_b{
+    /* Rectangle 4 */
+    width: 1px;
+    height: 273px;
+    left: 0px;
+  
+
+    /* /Orange / 6 */
+
+    background: #823B00;
+    transform: rotate(-90deg);
+  }
+  .joinclass_modal_setting_text_camera{
+    /* Tắt camera tất cả học viên */
+
+
+  width: 100%;
+  height: 21px;
+ 
+  /* LMS Student / Content */
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+
+
+  /* /Orange / 7 */
+
+  color: #373839;
+  }

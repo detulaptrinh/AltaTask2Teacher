@@ -1,19 +1,20 @@
 .img_joinclass_images {
-    width: 1475px;
-    height: 880px;
+    width: 141.5rem;
+    height: 88rem;
     float: right;
+    margin-top: -55%;
     background: url(../../assets/images/joinclassteacher.png);
 }
 .joinclass_col_top_images {
-    width: 1475px;
-    height: 56px;  
+    width: 141.5rem;
+    height: 5.6rem;  
     /* /Orange / 7 */
     background: rgba(0, 0, 0, 0.6);
 }
 .joinclass_col_bottom_images {
-    width: 1475px;
-    height: 56px;
-    margin-top: 2.3rem;
+    width: 141.5rem;
+    height: 5.6rem;
+    margin-top: 4rem;
     /* /Orange / 7 */
 
     background: #373839;
@@ -21,49 +22,65 @@
 .joinclass_col_bottom_text {
     /* Lịch Sử Tiết 5: Tìm hiểu văn hóa Hy Lạp - GV: Trần Thanh Tâm */
 
-    width: 558px;
-    height: 23px;
+    width: 55.8rem;
+    height: 2.3rem;
     margin-left: 2rem;
     padding-top: 1.7rem;
     /* LMS Student/Sub-header */
     font-style: normal;
     font-weight: 700;
     font-family: Mulish;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
     letter-spacing: 0.015em;
 
     color: #FFFFFF;
 }
 .joinclass_text_share_class {
     /* Chia sẻ tiết học: */
-    width: 143px;
-    height: 23px;
+    width: 14.3rem;
+    height: 2.3rem;
     margin-left: 3rem;
     margin-top: 2rem;
     /* LMS Student/Sub-header */
     font-style: normal;
     font-weight: 700;
     font-family: Mulish;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
     letter-spacing: 0.015em;
 
     /* /Orange / 7 */
 
     color: #373839;
 }
-.joinclass_textinput_share_class {
-    width: 619px;
-    height: 40px;
-    margin-left: 3rem;
+.joinclass_col_chat_textinput{
+    width: 100%;
+   
+    border: 0px;
 
     background: #FFFFFF;
     /* Inactivated Icon */
 
-    border: 1px solid #C9C4C0;
+    border: 0rem solid #C9C4C0;
     box-sizing: border-box;
-    border-radius: 4px;
+    border-radius: 0.4rem;
+}
+
+.joinclass_textinput_share_class {
+    width: 61.9rem;
+    height: 4rem;
+    margin-left: 3rem;
+    padding-left: 2rem;
+    padding-top: 0.6rem;
+    font-size: 1.6rem;
+    color: #000000;
+    background: #FFFFFF;
+    /* Inactivated Icon */
+
+    border: 0.1rem solid #C9C4C0;
+    box-sizing: border-box;
+    border-radius: 0.4rem;
 }
 .joinclass_button_share_class {
     /* button */
@@ -74,33 +91,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px;
 
     position: absolute;
-    width: 108px;
-    height: 32px;
+    width: 10.8rem;
+    height: 3.2rem;
     margin-left: 68rem;
     margin-top: -6.5rem;
 
     /* Orange/4 */
 
     background: #FF7506;
-    border-radius: 4px;
+    border-radius: 0.4rem;
 }
 .joinclass_button_text_share_class {
     position: static;
-    width: 68px;
-    height: 20px;
-    left: calc(50% - 68px/2);
-    top: calc(50% - 20px/2);
+    width: 6.8rem;
+    height: 2rem;
+    left: calc(50% - 6.8rem/2);
+    top: calc(50% - 2rem/2);
 
     /* LMS Student / Menu */
 
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1.6rem;
+    line-height: 2rem;
     letter-spacing: 0.015em;
 
     color: #FFFFFF;
@@ -111,16 +127,16 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 10px;
+    margin: 0rem 1rem;
 }
 .joinclass_icon_images_share {
     /* Ellipse 1 */
-    width: 64px;
-    height: 64px;
+    width: 6.4rem;
+    height: 6.4rem;
     float: right;
     margin-top: 47%;
     margin-right: 3%;
-    border-radius: 55px;
+    border-radius: 5.5rem;
     /* /Orange / 7 */
 
     background: #373839;
@@ -128,11 +144,11 @@
 }
 .joinclass_icon_images_micro{
     /* Ellipse 1 */
-    width: 64px;
-    height: 64px;
+    width: 6.4rem;
+    height: 6.4rem;
     margin-top: 47%;
     margin-left: 3%;
-    border-radius: 55px;
+    border-radius: 5.5rem;
     /* /Orange / 7 */
 
     background: #373839;
@@ -140,11 +156,11 @@
 }
 .joinclass_icon_images_camera {
     /* Ellipse 1 */
-    width: 64px;
-    height: 64px;
+    width: 6.4rem;
+    height: 6.4rem;
     margin-top: -4.5%;
     margin-left: 10%;
-    border-radius: 55px;
+    border-radius: 5.5rem;
     /* /Orange / 7 */
 
     background: #373839;
@@ -153,29 +169,29 @@
 .joinclass_col_chat {
     /* Chat */
    
-    width: 459px;
-    height: 783px;
+    width: 45.9rem;
+    height: 76.3rem;
     float: right;
     margin-top: -45%;
 
     /* White */
 
     background: #FFFFFF;
-    box-shadow: -8px 7px 15px rgba(186, 222, 255, 0.35);
-    border-radius: 16px 16px 0px 0px;
+    box-shadow: -0.8rem 0.7rem 1.5rem rgba(186, 222, 255, 0.35);
+    border-radius: 1.6rem 1.6rem 0rem 0rem;
 }
 .joinclass_col_chatvoilop {
     /* Frame 83 */
 
-    width: 459px;
-    height: 60px;
+    width: 45.9rem;
+    height: 6rem;
    
 
     /* overlay */
 
     background: #F0F3F6;
-    box-shadow: 0px 0px 10px rgba(71, 138, 200, 0.25);
-    border-radius: 16px 16px 0px 0px;
+    box-shadow: 0rem 0rem 1rem rgba(71, 138, 200, 0.25);
+    border-radius: 1.6rem 1.6rem 0rem 0rem;
 }
 .joinclass_col_iconarrow {
     /* Vector */
@@ -198,18 +214,19 @@
     /* Chat với lớp */
 
     position: absolute;
-    width: 208px;
-    height: 23px;
-    left: 195px;
-    top: 18px;
+    width: 20.8rem;
+    height: 2.3rem;
+    left: 19.5rem;
+    top: 1.8rem;
+    border: none;
     font-weight: 700;
     font-family: Mulish;
-    font-size: 18px;
+    font-size: 1.8rem;
     /* LMS Student/Sub-header */
 
     font-family: Mulish;
 
-    line-height: 21px;
+    line-height: 2.1rem;
     font-size: 1.8rem;
     letter-spacing: 0.015em;
 
@@ -220,62 +237,58 @@
 }
 .joinclass_textinput_col_chat{
     /* Nhập tin nhắn... */
-    width: 400px;
-    margin-top: 120%;
-    /* LMS Student / Status */
+   /* Rectangle 27 */
+    position: absolute;
+    display: none;
+    width: 32.7rem;
+    height: 14.2rem;
+ 
+    top: 9rem;
 
-    font-family: Source Sans Pro;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
 
-    /* /Orange / 7 */
-
-    color: #373839;
-   
-    margin-left: 3rem;
-
-    background: #FFFFFF;
     /* Inactivated Icon */
 
-    border: 1px solid #C9C4C0;
+    border: 0.1rem solid #C9C4C0;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 1.6rem;
 }
 .joinclass_col_icon_send {
-    float: right;
-    margin-top: 122%;
+   /* Vector */
+
+    position: absolute;
+    left: 90%;
+    top: 88.36%;
+
     /* margin-right: 3%; */
 }
 .joinclass_col_student {
     /* danh sách học viên */
 
     position: absolute;
-    width: 270px;
-    height: 1008px;
-    left: 112px;
-    top: 72px;
-    overflow-y: scroll;
+    width: 27rem;
+    height: 100.8rem;
+   
+    top: 7.2rem;
+    overflow-x: hidden;
 
     /* White */
 
     background: #FFFFFF;
-    box-shadow: 4px 4px 15px 2px rgba(186, 222, 255, 0.25);
+    box-shadow: 0.4rem 0.4rem 1.5rem 0.2rem rgba(186, 222, 255, 0.25);
 }
 .joinclass_col_student_danhsach{
     /* Rectangle 22 */
 
-    width: 275px;
-    height: 56px;
+    width: 27.5rem;
+    height: 5.6rem;
 
     background: #823B00;
 }
 .joinclass_col_student_text_danhsach{
     /* Danh sách học viên */
   
-    width: 275px;
-    height: 23px;
+    width: 27.5rem;
+    height: 2.3rem;
     font-style: normal;
     font-weight: bold;
     padding-top: 7%;
@@ -284,8 +297,8 @@
     /* LMS Student/Sub-header */
 
     font-family: Mulish;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
     letter-spacing: 0.015em;
 
     /* White */
@@ -294,8 +307,8 @@
 }
 .joinclass_col_student_hocvien{
     /* học viên  */
-    width: 205px;
-    height: 104px;
+    width: 20.5rem;
+    height: 10.4rem;
     margin-left: 3rem;
     margin-top: 2rem;
 
@@ -304,16 +317,16 @@
     /* thêm người */
 
     position: absolute;
-    width: 56px;
-    height: 56px;
-    left: 191px;
-    top: 934px;
+    width: 5.6rem;
+    height: 5.6rem;
+    left: 19.1rem;
+    top: 93.4rem;
 
     /* Orange/4 */
 
     background: #FF7506;
-    box-shadow: 2px 2px 10px 2px rgba(255, 117, 6, 0.25);
-    border-radius: 34px;
+    box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(255, 117, 6, 0.25);
+    border-radius: 3.4rem;
 }
 .joinclass_col_icon_insert{
    margin-top: 21%;
@@ -321,23 +334,23 @@
 
 }
 .joinclass_images_icon_camera{
-    margin-top: 35%;
+    margin-top: 37%;
    margin-left: 25%;
 }
 .joinclass_images_icon_camera1{
-    margin-top: -70%;
-   margin-left: 20%;
+    margin-top: -79%;
+   margin-left: 19%;
 }
 .joinclass_images_icon_micro{
     margin-top: 18%;
     margin-left: 35%;
 }
 .joinclass_images_icon_micro1{
-    margin-top: -50%;
+    margin-top: -54%;
     margin-left: 24%;
 }
 .joinclass_images_icon_micro2{
-    margin-top: -95%;
+    margin-top: -97%;
     margin-left: 43%;
 }
 .joinclass_images_icon_micro3{
@@ -373,10 +386,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 2px 10px;
+    padding: 0.2rem 1rem;
 
-    width: 50px;
-    height: 25px;
+    width: 5rem;
+    height: 2.5rem;
     float: right;
     margin-top: 1%;
     margin-right: 1%;
@@ -384,18 +397,18 @@
     /* White */
 
     background: #FFFFFF;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 .joinclass_col_top_images_90_text{
     /* 90% */
-    width: 30px;
-    height: 21px;
+    width: 3rem;
+    height: 2.1rem;
     /* LMS Student / Content */
 
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 130%;
     /* identical to box height, or 21px */
 
@@ -406,7 +419,7 @@
     /* Inside Auto Layout */
     order: 0;
     flex-grow: 0;
-    margin: 0px 0px;
+    margin: 0rem 0rem;
 }
 .joinclass_images_icon_slide{
     float: right;
@@ -415,8 +428,8 @@
 }
 .joinclass_col_top_images_text_slide{
     /* 09/45 slides */
-    width: 79px;
-    height: 21px;
+    width: 7.9rem;
+    height: 2.1rem;
     margin-top: 1.2%;
     margin-right: 28%;
     float: right;
@@ -426,7 +439,7 @@
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 130%;
     /* identical to box height, or 21px */
 
@@ -452,9 +465,446 @@
     margin-left: -0.5rem;
 }
 .joinclass_col_student_icon3cham{
-    /* menu / more_vertical */
-    float: right;
     margin-top: -2rem;
-    margin-right: 1rem;
+    float: right;
+    margin-right: 2rem;
+}
+.joinclass_col_chat_image_thanhtamgv{
+    margin-top: 1.4rem;
+    margin-left: 1.5rem;
+}
+.joinclass_col_chat_label_text_GV{
+    /* Thanh Tâm (GV): */
+
+    position: absolute;
+    width: 12rem;
+    height: 2rem;
+    left: 4.5rem;
+    top: 1.5rem;
+
+    /* LMS Student / Menu */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: 0.015em;
+
+    /* /Blue / 3 */
+
+    color: #2EACEE;
+}
+.joinclass_col_chat_label_text_GV1{
+    /* Các bạn có nghe rõ cô nói hong? */
+
+
+    position: absolute;
+    width: 31.3rem;
+    height: 2.1rem;
+    left: 17.4rem;
+    top: 1.5rem;
+
+    /* LMS Student / Content */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+
+
+    /* /Orange / 7 */
+
+    color: #373839;
 
 }
+.joinclass_col_chat_image_hienmai{
+    margin-top: -4rem;
+    margin-left: 1.5rem;
+}
+.joinclass_col_chat_label_text_hienmai{
+    /* Hiền Mai: */
+
+
+    position: absolute;
+    width: 6.8rem;
+    height: 2rem;
+    left: 4.5rem;
+    top: -1.1rem;
+
+    /* LMS Student / Menu */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: 0.015em;
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.joinclass_col_chat_label_text_hienmai1{
+    /* Có nè cô :) */
+
+
+    position: absolute;
+    width: 6.9rem;
+    height: 2.1rem;
+    left: 17.5rem;
+    top: -1.1rem;
+
+    /* LMS Student / Content */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.joinclass_col_chat_image_tranthim{
+    margin-top: -8rem;
+    margin-left: 1.5rem;
+}
+.joinclass_col_chat_label_text_tranthim{
+    /* Trần Thị M: */
+
+
+    position: absolute;
+    width: 9rem;
+    height: 2rem;
+    left: 4.5rem;
+    top: -3.2rem;
+
+    /* LMS Student / Menu */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: 0.015em;
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.joinclass_col_chat_label_text_tranthim1{
+    /* Kiểm tra miệng hong cô êi =)) */
+
+
+    position: absolute;
+    width: 19.4rem;
+    height: 2.1rem;
+    left: 17.5rem;
+    top: -3.2rem;
+
+    /* LMS Student / Content */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.joinclass_col_chat_image_tranthim2{
+    margin-top: -4rem;
+    margin-left: 1.5rem;
+}
+.joinclass_col_chat_label_text_tranthim2{
+    /* Trần Thị M: */
+
+
+    position: absolute;
+    width: 9rem;
+    height: 2rem;
+    left: 4.5rem;
+    top: -1.2rem;
+
+    /* LMS Student / Menu */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: 0.015em;
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.joinclass_col_chat_label_text_tranthim22{
+    /* Có nè cô :) */
+
+
+    position: absolute;
+    width: 19.4rem;
+    height: 2.1rem;
+    left: 17.5rem;
+    top: -1.2rem;
+
+    /* LMS Student / Content */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.joinclass_col_chat_image_thanhtamgv2{
+    margin-top: -12rem;
+    margin-left: 1.5rem;
+}
+.joinclass_col_chat_label_text_GV2{
+    /* Thanh Tâm (GV): */
+
+    position: absolute;
+    width: 12rem;
+    height: 2rem;
+    left: 4.5rem;
+    top: -5.2rem;
+
+    /* LMS Student / Menu */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: 0.015em;
+
+    /* /Blue / 3 */
+
+    color: #373839;
+}
+.joinclass_col_chat_label_text_GV22{
+    /* Địa điểm xuất phát phát triển của nền văn minh Hy Lạp là đồng bằng Thessalia màu mỡ, rộng lớn ở vùng bắc Hy Lạp cùng với các đồng bằng Attike, Beotia ở trung Hy Lạp và bán đảo Peloponnese ở phía nam Hy Lạp. */
+
+
+    position: absolute;
+    width: 24.9rem;
+    height: 12.6rem;
+    left: 17.5rem;
+    top: -5.2rem;
+
+    /* LMS Student / Content */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    /* or 21px */
+
+
+    /* /Orange / 7 */
+
+    color: #373839;
+
+}
+.joinclass_col_chat_image_thanhtamgv3{
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+}
+.joinclass_col_chat_label_text_GV3{
+    /* Thanh Tâm (GV): */
+
+    position: absolute;
+    width: 12rem;
+    height: 2rem;
+    left: 4.5rem;
+    top: 3rem;
+
+    /* LMS Student / Menu */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: 0.015em;
+
+    /* /Blue / 3 */
+
+    color: #2EACEE;
+}
+.joinclass_col_chat_label_text_GV33{
+    /* Có ai ý kiến gì không */
+
+
+    position: absolute;
+    width: 31.3rem;
+    height: 2.1rem;
+    left: 17.5rem;
+    top: 3rem;
+
+    /* LMS Student / Content */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+
+
+    /* /Orange / 7 */
+
+    color: #373839;
+
+}
+.joinclass_col_chat_image_thanhtamgv4{
+    margin-top: -11rem;
+    margin-left: 1.5rem;
+}
+.joinclass_col_chat_label_text_GV4{
+    /* Thanh Tâm (GV): */
+
+    position: absolute;
+    width: 12rem;
+    height: 2rem;
+    left: 4.5rem;
+    top: -4.8rem;
+
+    /* LMS Student / Menu */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: 0.015em;
+
+    /* /Blue / 3 */
+
+    color: #2EACEE;
+}
+.joinclass_col_chat_label_text_GV44{
+    /* https://nordiccoder.com/blog */
+
+
+    position: absolute;
+    width: 31.3rem;
+    height: 2.1rem;
+    left: 17.5rem;
+    top: -4.8rem;
+
+    /* LMS Student / Content */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+
+
+    /* /Orange / 7 */
+
+    color: #2EACEE;
+
+}
+.joinclass_col_chat_image_phamvanc{
+    margin-top: -8rem;
+    margin-left: 1.5rem;
+}
+.joinclass_col_chat_label_text_phamvanc{
+    /* Phạm Văn C: */
+
+
+    position: absolute;
+    width: 11rem;
+    height: 2rem;
+    left: 4.5rem;
+    top: -3.2rem;
+
+    /* LMS Student / Menu */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: 0.015em;
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.joinclass_col_chat_label_text_phamvanc1{
+    /* Hôm nào kiểm tra ạ? */
+
+
+    position: absolute;
+    width: 19.4rem;
+    height: 2.1rem;
+    left: 17.5rem;
+    top: -3.2rem;
+
+    /* LMS Student / Content */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+
+
+    /* /Orange / 7 */
+
+    color: #373839;
+}
+.joinclass_col_chat_content__footer {
+    border: 1px solid #C9C4C0;
+    box-sizing: border-box;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 8px;
+    margin-top: 8rem;
+  }
+  .joinclass_col_chat_sendNewMessage {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 0px solid #d9d9d9;
+    width: 100%;
+    border-radius: 8px;
+  }
+  .joinclass_col_chat_sendNewMessage button {
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #4665ff;
+    padding: 0;
+    border-radius: 5px;
+    line-height: 32px;
+    transition: all 0.3s cubic-bezier(0.88, 0.19, 0.37, 1.11);
+  }

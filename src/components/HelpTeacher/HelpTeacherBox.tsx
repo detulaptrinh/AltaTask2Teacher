@@ -1,19 +1,26 @@
 import React, { Component,useState }  from 'react'
 import helpTeacherCss from './HelpTeacher.module.css';
 import { Row, Col, Form, Radio ,Input, Button, Modal } from 'antd';
+import {CloseOutlined} from '@ant-design/icons';
 import {
     IconMap,
     IconPhone,
     IconMail
   } from "../../assets/svg/icon";
+  import "./modalhelpTeacher.css";
+  import TextArea from "rc-textarea";
 
-const { TextArea } = Input;
+const HelpTeacher = (): JSX.Element => {
+    const [issendModal, setsendtModal] = useState<boolean>(false);
 
-function HelpTeacher(){
-    const [isModalInfo, setIsModalInfo] = useState(false);
-    const showModalInfo = () => {
-        setIsModalInfo(true);
+    const showsendtModal = (): void => {
+        setsendtModal(true);
+      };
+    
+    const handleSendCourse = (values: any): void => {
+    console.log(values);
     };
+    
     return (
         <>
             <Row>
@@ -36,9 +43,9 @@ function HelpTeacher(){
                             {/* <b className={helpTeacherCss.HelpTeacher_b}/> */}
                             <TextArea rows={14}  placeholder="Để lại lời nhắn của bạn tại đây..." className={helpTeacherCss.HelpTeacher_TextArea_inputchude}/>
                         </Form.Item>
-                        <Button className={helpTeacherCss.HelpTeacher_button} onClick={showModalInfo} disabled>
+                        <a className={helpTeacherCss.HelpTeacher_button} onClick={showsendtModal}>
                             <p className={helpTeacherCss.HelpTeacher_button_text}>Gửi</p>
-                        </Button>
+                        </a>
                     </div>
                     <div className={helpTeacherCss.div_boxright}>
                     <Col className={helpTeacherCss.Col_boxRightHelpTeacher}>
@@ -80,12 +87,21 @@ function HelpTeacher(){
                 </Col>                
             </Row>
             {/* Modal gui*/}
-            <Modal className={helpTeacherCss.HelpTeacher_modal} title="Đã nhận thông tin" visible={isModalInfo}>
-                    <p className={helpTeacherCss.HelpTeacher_modal_content}>Hệ thống đã nhận được thông tin, thắc mắc từ bạn. 
+            <Modal
+                    className="HelpTeacher_modal HelpTeacher_modal-send"
+                    title="Đã nhận thông tin"
+                    visible={issendModal}
+                    onCancel={handleSendCourse}
+                    centered
+                >
+                    <CloseOutlined className="HelpTeacher_icon-close" onClick={() => setsendtModal(false)} style={{  color: '#C83901' }}/>
+                    <p className="HelpTeacher_modal-send-desc">
+                    Hệ thống đã nhận được thông tin, thắc mắc từ bạn. 
                     Chúng tôi sẽ cố gắng phản hồi bạn trong thời gian sớm nhất.
-                     Mong bạn sẽ kiên nhẫn chờ đợi...</p>
+                     Mong bạn sẽ kiên nhẫn chờ đợi...
+                    </p>
+                   
                 </Modal>
-      
 
         </>
     )
