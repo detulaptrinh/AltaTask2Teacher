@@ -1,7 +1,7 @@
 import { Button, Col, Row, Tabs, Select, DatePicker, Input, Table, Space, Tag, Pagination, InputNumber } from 'antd';
 import React, { Component } from 'react';
-import UngradedTestCss from './ungradedTest.module.css'
-import'./ungradedTest.css'
+import UngradedTestCss from '../moduleCss/ungradedTest.module.css'
+import'../css/ungradedTest.css'
 import { SearchOutlined } from '@ant-design/icons';
 import { IconFiEdit, IconInfo } from '../../../assets/svg/icon';
 import { ungradedTest } from '../data';

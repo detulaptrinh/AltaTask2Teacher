@@ -5,7 +5,7 @@
   justify-content: center;
 }
 .table_user_notice .ant-table-pagination-right {
-    justify-content: center;
+  justify-content: center;
 }
 .table_user_notice .ant-table-pagination {
   display: flex;
@@ -75,3 +75,65 @@
 .table_user_notice .ant-pagination-jump-prev a:hover {
   color: rgba(0, 0, 0, 0.85);
 }
+
+/* TABLE */
+.table_user_notice {
+  position: relative;
+  width: 160.6rem;
+  height: 70rem;
+  border: 0.01rem solid #f0f3f6;
+  left: 3rem;
+  right: 0.2rem;
+  top: 1.2rem;
+  border-radius: 1rem;
+  background-color:none;
+}
+.table_user_notice .ant-table-thead > tr > th {
+  color: #ffffff;
+  text-align: center;
+  background: none;
+  border-bottom: 0em;
+  font-family: "Mulish";
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 2.3rem;
+  letter-spacing: 0.015em;
+  text-align: left;
+}
+.table_user_notice .ant-table-thead {
+  background:none;
+}
+.table_user_notice .ant-table-thead > tr > th,
+.table_user_notice .ant-table-tbody > tr > td,
+.table_user_notice .ant-table tfoot > tr > th,
+.table_user_notice .ant-table tfoot > tr > td {
+  padding: 1rem;
+  overflow-wrap: normal;
+  text-align: left;
+}
+.table_user_notice .ant-table-tbody > tr > td {
+  border-bottom: 0.1rem solid #f0f0f0;
+  font-family: "Source Sans Pro";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.1rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.table_user_notice .ant-table-thead > tr > th,
+.table_user_notice.ant-table-tbody > tr > td,
+.table_user_notice .ant-table tfoot > tr > th,
+.table_user_notice .ant-table tfoot > tr > td {
+  width: 1604px;
+  height: 5.8rem;
+  overflow-wrap: normal;
+}
+.table_user_notice table > thead > tr:first-child th:last-child {
+  border-top-right-radius: 1rem;
+}
+.table_user_notice table > thead > tr:first-child th:first-child {
+  border-top-left-radius: 1rem;
+}
+

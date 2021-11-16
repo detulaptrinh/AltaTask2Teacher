@@ -3,8 +3,8 @@ import React, { Component, useState } from 'react';
 import { IconFiEdit, IconInfo } from '../../../assets/svg/icon';
 import { SearchOutlined } from '@ant-design/icons';
 import { upcomingTest } from '../data';
-import UpcomingTestCss from './upcomingTest.module.css'
-import './upcomingTest.css'
+import UpcomingTestCss from '../moduleCss/upcomingTest.module.css'
+import '../css/upcomingTest.css'
 
 const { TabPane } = Tabs;
 const { Option } = Select;

@@ -1,10 +1,16 @@
 import { Breadcrumb, Button, Col, Row, Tabs, Select, DatePicker, Input, Table, Space, Tag, Pagination, InputNumber, Modal } from 'antd';
 import React, { Component, useState } from 'react';
-import TestList from '../testList';
+import TestList from './testList';
 import { SearchOutlined } from '@ant-design/icons';
+<<<<<<< Updated upstream:src/components/TestList/AllTests/allTests.tsx
 import AllTestsCss from './allTests.module.css'
 import './allTests.css'
 import { IconFiEdit, IconInfo } from '../../../assets/svg/icon';
+=======
+import AllTestsCss from '../moduleCss/allTests.module.css'
+import "../css/allTests.css"
+import { IconEdit, IconInfo } from '../../../assets/svg/icon';
+>>>>>>> Stashed changes:src/components/TestList/tsx/allTests.tsx
 import { allTest } from '../data';
 
 
