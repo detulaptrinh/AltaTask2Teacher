@@ -14,20 +14,16 @@ import JoinClassTeacher from './components/JoinClassTeacher/JoinClassTeacher';
 
 import "./App.css"; // css
 import Dashboard from './components/Dashboard/Dashboard';
-<<<<<<< Updated upstream
-import TestList from './components/TestList/testList';
-import AllTests from './components/TestList/AllTests/allTests';
-import Notifications from './components/Notificationss/notifications';
 
 import AddNewLesson from './components/AddNewLesson/AddNewLesson';
 import NewTestManager from './components/AddNewTestManager/NewTestManager';
 import TestScheduleMonth from './components/TestSchedule/TestScheduleMonth';
 import TestScheduleWeek from './components/TestSchedule/TestScheduleWeek';
-=======
+
 import TestList from './components/TestList/tsx/testList';
 import AllTests from './components/TestList/tsx/allTests';
 import Notifications from './components/Notificationss/tsx/notifications';
->>>>>>> Stashed changes
+
 export default class App extends Component {
     render() {
         return (
