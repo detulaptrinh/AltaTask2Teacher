@@ -1,0 +1,70 @@
+[
+    {
+      "objectname":"Lịch sử",
+      "idclass": "125 1456 8954",
+      "time": "Thứ 3, 19/08/2020 ",
+      "times": "09:00AM",
+      "teacher":"GV. Nguyễn Văn A",
+      "status":true
+    },
+    {
+      "objectname":"Toán hình học",
+      "idclass": "125 1456 8954",
+      "time": "Thứ 3, 19/08/2020",
+      "times": "12:00AM",
+      "teacher":"GV. Nguyễn Văn A",
+      "status":false
+    },
+    {
+      "objectname":"Toán Đại Số",
+      "idclass": "125 1456 8954",
+      "time": "Thứ 4, 20/08/2020",
+      "times": "14:00AM",
+      "teacher":"GV. Nguyễn Văn A",
+      "status":false
+
+    },
+    {
+      "objectname":"Tiếng Anh",
+      "idclass": "125 1456 8954",
+      "time": "Thứ 5 - 10:00",
+      "times": "09:00AM",
+
+      "teacher":"GV. Nguyễn Văn A",
+      "status":false
+
+    },{
+      "objectname":"Lịch sử",
+      "idclass": "125 1456 8954",
+      "time": "Thứ 3 - 14:00",
+      "times": "09:00AM",
+
+      "teacher":"GV. Nguyễn Văn A",
+      "status":false
+    },{
+      "objectname":"Lịch sử",
+      "idclass": "125 1456 8954",
+      "time": "Thứ 3 - 14:00",
+      "times": "09:00AM",
+
+      "teacher":"GV. Nguyễn Văn A",
+      "status":false
+    },{
+      "objectname":"Lịch sử",
+      "idclass": "125 1456 8954",
+      "time": "Thứ 3 - 14:00",
+      "times": "09:00AM",
+
+      "teacher":"GV. Nguyễn Văn A",
+      "status":false
+    },{
+      "objectname":"Lịch sử",
+      "idclass": "125 1456 8954",
+      "time": "Thứ 3 - 14:00",
+      "times": "09:00AM",
+
+      "teacher":"GV. Nguyễn Văn A",
+      "status":false
+
+    }
+  ]

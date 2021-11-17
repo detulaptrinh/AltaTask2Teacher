@@ -96,7 +96,7 @@ function Dashboard() {
             <div className={DashBoardCss.title}>
               <span className="font-bold">Tất cả khóa học</span>
             </div>
-            <div className="box__collapse">
+            <div className="box__collapse mt-8">
               <Collapse defaultActiveKey={['1']}>
                 <Panel header="Học kỳ II - 2020" key={1}>
                   <Coll1 />

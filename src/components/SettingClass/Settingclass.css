@@ -1,0 +1,144 @@
+.tab_switch {
+  font-family: "Mulish";
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.015em;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+.tab_switch .ant-tabs-card>.ant-tabs-nav .ant-tabs-tab-active, .ant-tabs-card>div>.ant-tabs-nav .ant-tabs-tab-active {
+  width: 20.7rem;
+  height: 7.2rem;
+  background: linear-gradient(270deg, #ff5400 0%, #f17f21 80.56%);
+  box-shadow: -1px 5px 18px -4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px 8px 0px 0px;
+}
+
+.tab_switch .ant-tabs-card>.ant-tabs-nav .ant-tabs-tab-active, .ant-tabs-card>div>.ant-tabs-nav .ant-tabs-tab {
+  width: 20.7rem;
+  height: 7.2rem;
+  box-shadow: -1px 5px 18px -4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px 8px 0px 0px;
+}
+
+.tab_switch .ant-tabs-card.ant-tabs-top>.ant-tabs-nav .ant-tabs-tab+.ant-tabs-tab, .ant-tabs-card.ant-tabs-bottom>.ant-tabs-nav .ant-tabs-tab+.ant-tabs-tab, .ant-tabs-card.ant-tabs-top>div>.ant-tabs-nav .ant-tabs-tab+.ant-tabs-tab, .ant-tabs-card.ant-tabs-bottom>div>.ant-tabs-nav.ant-tabs-tab+.ant-tabs-tab {
+  margin-left: 2.4rem;
+}
+
+.tab_switch .ant-tabs-card.ant-tabs-top>.ant-tabs-nav .ant-tabs-tab, .ant-tabs-card.ant-tabs-top>div>.ant-tabs-nav .ant-tabs-tab {
+  border-radius: 0.8rem 0.8rem 0rem 0rem;
+  border-top: 0.2rem solid #ff5400;
+  border-left: 0.2rem solid #ff5400;
+  border-right: 0.2rem solid #ff5400;
+  width: 20.7rem;
+  height: 7.2rem;
+}
+
+.tab_switch .ant-tabs-tabpane {
+  width: 168rem;
+  height: 80rem;
+  background: #ffffff;
+  box-shadow: 0.4rem 0.4rem 2.5rem 0.4rem rgba(154, 202, 245, 0.25);
+  border-radius: 0rem 1.6rem 1.6rem 1.6rem;
+}
+
+.tab_switch .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #F2F2F2;
+}
+
+.tab_switch .ant-tabs-top>.ant-tabs-nav, .ant-tabs-bottom>.ant-tabs-nav, .ant-tabs-top>div>.ant-tabs-nav, .ant-tabs-bottom>div>.ant-tabs-nav {
+  margin: 0;
+}
+
+.select_group span.ant-select-selection-item {
+  text-align: start;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 130%;
+  color: #373839;
+}
+
+.select_group span.ant-select-arrow {
+  color: #FF7506;
+  top: 1.2rem;
+  right: 1.5rem;
+}
+
+.select_group.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: #fff;
+  border: 0.1rem solid #373839;
+  border-radius: 0.4rem;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.select_group.ant-select {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 130%;
+  color: #373839;
+}
+
+.select_group.ant-select-single.ant-select-show-arrow .ant-select-selection-search {
+  right: 3rem;
+  border-right: 0.1rem solid #373839;
+}
+.table__class{
+  width: 160.8rem;
+  height:5.8rem;
+}
+.table__class .ant-table-thead > tr > th {
+  color: #ffffff;
+  text-align: center;
+  background: none;
+  border-bottom: 0em;
+  font-family: "Mulish";
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 2.3rem;
+  letter-spacing: 0.015em;
+}
+.table__class .ant-table-thead {
+  background: linear-gradient(270deg, #ff5400 0%, #f17f21 80.56%);
+}
+.table__class .ant-table-tbody > tr .table__class.ant-table-row:hover > td {
+  background: #f0f3f6;
+  text-align: center;
+}
+.table__class .ant-table-thead > tr > th,
+.table__class .ant-table-tbody > tr > td,
+.table__class .ant-table tfoot > tr > th,
+.table__class .ant-table tfoot > tr > td {
+  padding: 1rem;
+  overflow-wrap: normal;
+  text-align: center;
+}
+.table__class .ant-table-tbody > tr > td {
+  border-bottom: 0.1rem solid #f0f0f0;
+  font-family: "Source Sans Pro";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.1rem;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.table__class .ant-table-thead > tr > th,
+.table__class.ant-table-tbody > tr > td,
+.table__class .ant-table tfoot > tr > th,
+.table__class .ant-table tfoot > tr > td {
+  width: 20rem;
+  height: 4rem;
+  overflow-wrap: normal;
+}
+.table__class table > thead > tr:first-child th:last-child {
+  border-top-right-radius: 1rem;
+}
+.table__class table > thead > tr:first-child th:first-child {
+  border-top-left-radius: 1rem;
+}
