@@ -1,0 +1,62 @@
+.title {
+  font-family: 'Mulish';
+  color: #373839;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  letter-spacing: 0.015em;
+}
+
+.label_group {
+  font-family: 'Mulish';
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.015em;
+  color: #373839;
+}
+
+.box_search {
+  width: 43rem;
+  height: 4rem;
+  border-radius: 2.4rem;
+  color: #c5c5c5;
+  font-size: 1.4rem;
+  background-color: #f0f3f6;
+  background-image: none;
+  border: 0.1rem solid #f0f3f6;
+  transition: all 0.3s;
+  line-height: 3.2rem;
+}
+.box_search input{
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #373839;
+  opacity: 0.5;
+  background-color: #efefef;
+}
+.status_coming{
+  width: 14.2rem;
+  height: 3.2rem;
+  background-color: #FF7506;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+}
+.status_done{
+  width: 14.2rem;
+  height: 3.2rem;
+  background-color: #C9C4C0;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+}
+.btn__img{
+  border: none;
+  background: none;
+}
+.pag_left{
+  top: 60.9rem;
+  left: 3.6rem;
+}

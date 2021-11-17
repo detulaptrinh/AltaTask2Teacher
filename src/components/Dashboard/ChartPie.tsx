@@ -32,8 +32,6 @@ const DemoPie: React.FC = () => {
       style: {
         fontSize: 14,
         textAlign: 'center',
-        display: 'flex',
-        flexDirection: 'column'
       },
     },
     interactions: [{ type: 'element-active' }],

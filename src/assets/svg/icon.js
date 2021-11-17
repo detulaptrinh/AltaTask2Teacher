@@ -36,10 +36,6 @@ import IconSpeakbar1 from "./iconSpeakbar1.svg"
 import IconCircle from "./iconCircle.svg"
 import Icon3cham from "./icon3cham.svg"
 import IconVisibility from "./visibilityIcon.svg"
-
-
-
-// icon 5. Thông tin lớp hoc
 import IconInsert50 from "./icon-insert.svg"
 import IconFiCirclex from "./fi_x-circlex.svg"
 import IconFiEdit from "./fi_edit.svg"
