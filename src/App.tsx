@@ -42,7 +42,6 @@ export default class App extends Component {
                                 
                                 {/* 5. Thông tin lớp học */}
                                                           
-                                <Route path="/" component={Dashboard} />
                                 <Route path="/settingclass"  component={Settingclass}/>
                                 <Route path="/chat" component={ChatBody} />
 
