@@ -48,7 +48,9 @@
 .ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab {
   border-radius: 0.8rem 0.8rem 0rem 0rem;
   border: 0.1rem solid;
-  border-image-source: linear-gradient(270deg, #ff5400 0%, #f17f21 80.56%);
+  border-top: 0.2rem solid #ff5400;
+  border-left: 0.2rem solid #ff5400;
+  border-right: 0.2rem solid #ff5400;
   width: 20.7rem;
   height: 6.9rem;
 }
@@ -73,4 +75,3 @@
   box-shadow: 0.4rem 0.4rem 2.5rem 0.4rem rgba(154, 202, 245, 0.25);
   border-radius: 0rem 1.6rem 1.6rem 1.6rem;
 }
-
