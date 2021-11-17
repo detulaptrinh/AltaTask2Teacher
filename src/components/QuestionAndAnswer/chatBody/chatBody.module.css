@@ -47,3 +47,23 @@
     height: 2.4rem;
     margin-left: 8px;
   }
+
+.group_topics{
+  display: flex;
+}
+
+.time_end{
+  margin-right: 14.2rem;
+  display: inline-block;
+}
+
+.time_select{
+  display: flex;
+  margin-top: 1.6rem;
+}
+
+.time_pick.ant-picker-focused{
+  border: none;
+}
+
+
