@@ -1,4 +1,233 @@
-.main__chatbody {
-  flex-grow: 1;
-  display: flex;
+.tabs-question .ant-tabs{
+  width: 100%;
 }
+
+
+.modal-groupuser .form-control{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+  justify-content: space-between;
+}
+
+.modal-groupuser .form-switch{
+  margin-left: 19.5rem;
+}
+
+.modal-groupuser .form-switch label{
+  margin-left: 0.8rem;
+}
+
+.modal-groupuser .obligatory{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  letter-spacing: 0.015em;
+  color: #ED2025;
+}
+
+.modal-groupuser .ant-modal-body .form-control input{
+  outline: none;
+  resize: none;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  height: 4rem;
+  padding: 12px 22px;
+  display: flex;
+  align-items: center;
+  background: #F2F2F2;    
+  border: none;
+  border-radius: 8px;
+  border-color: #f2f2f2;
+}
+
+.modal-groupuser .ant-modal-header{
+  padding-bottom: 2.4rem;
+  padding-top: 0;
+  border: none;
+}
+
+.modal-groupuser .ant-switch-handle{
+  top:0.7rem
+}
+
+.modal-groupuser .ant-modal-body label{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+  color: #373839;
+}
+
+.modal-groupuser .ant-modal-body{
+  padding: 0 6.4rem;
+}
+
+.modal-groupuser .ant-modal-content{
+  border-radius: 1.6rem;
+  padding-top:2.4rem;
+  width: 88.4rem;
+  height: 100%;
+  display: inline-block;
+}
+
+.modal-group-textarea{
+  outline: none;
+  resize: none;
+  padding: 12px 22px;
+  width: 100%;
+  border-radius: 8px;
+  background: #F2F2F2;
+  border-color: #F2F2F2;
+}
+
+.modal-groupuser .ant-modal-title{
+  text-align: center;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 0.015em;
+  color: #373839;
+}
+
+.btn-group__modal{
+  justify-content: center;
+  display: flex;
+  height: 5.2rem;
+  text-align: center;
+  margin-top: 4.8rem;
+  margin-bottom: 4rem;
+}
+
+.modal__btn-group__cancel.ant-btn,
+.modal__btn-group__save.ant-btn{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.015em;
+  border-color: #F2F2F2;
+}
+
+.modal__btn-group__cancel.ant-btn, .modal__btn-group__cancel.ant-btn:hover{
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 16rem;
+  height: 5.2rem;
+  background: #F2F2F2;
+  border-radius: 0.8rem;
+  color: #373839;
+}
+
+.modal-groupuser .form-checkbox{
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+
+.modal-groupuser .form-label{
+  min-width: 19.5rem;
+}
+
+
+.modal__btn-group__save.ant-btn, .modal__btn-group__save.ant-btn:hover{
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-left: 3.2rem;
+  width: 16rem;
+  height: 5.2rem;
+  background: #FF7506;
+  color: #FFFFFF;
+  border-radius: 0.8rem;
+}
+
+.modal-groupuser.ant-modal {
+  width: 88.4rem !important;
+}
+
+
+.modal-groupuser .ant-modal-footer,.modal-groupuser .ant-modal-close-x{
+  display: none;
+}
+
+.ant-picker.time_pick{
+  margin-right: 1rem;
+  padding: 0;
+  border: none;
+}
+
+.ant-picker.date_pick{
+  padding: 0;
+  border: none;
+}
+
+.ant-picker:hover, .ant-picker-focused.time_pick{
+  border-color: #FFFFFF !important;
+  border-right-width: none !important;
+}
+
+.time_pick .ant-picker-suffix{
+  margin-right: 5px;
+  color: #FF7506;
+  font-size: 24px;
+}
+
+.time_pick .anticon svg{
+  font-size: 24px;
+}
+
+.time_pick .ant-picker-input{
+  flex-direction: row-reverse;
+}
+
+
+.date_pick .ant-picker-suffix{
+  margin-right: 5px;
+  color: #FF7506;
+  font-size: 24px;
+}
+
+.date_pick .anticon svg{
+  font-size: 24px;
+}
+
+.date_pick .ant-picker-input{
+  flex-direction: row-reverse;
+}
+
+
+.upload_file.ant-btn, .upload_file.ant-btn:hover {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+
+  color: #373839;
+  background: #FFD8B8;
+
+  border: 1px solid #FF7506;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+
+ 

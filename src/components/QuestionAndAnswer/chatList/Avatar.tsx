@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Styles from "./Avatar.module.css"
 
 interface IRecipeProps {
     image?: string;
@@ -13,8 +13,8 @@ export default class Avatar extends Component<IRecipeProps>{
   }
   render() {
     return (
-      <div className="avatar">
-        <div className="avatar-img">
+      <div className={Styles.avatar}>
+        <div className={Styles.avatar_img}>
           <img src={this.props.image} alt="#" />
         </div>
       </div>
