@@ -3,6 +3,7 @@ import AddNewLessonCss from './AddNewLessonCss.module.css';
 import './AddNewLesson.css';
 import { Row, Col, Input, Radio, Select, Checkbox, DatePicker, Space } from 'antd';
 import { IconVisibility } from "../../assets/svg/icon";
+import { IconArrow, IconDate, IconDateG } from "../../assets/components/index"
 
 const { Option } = Select;
 
@@ -41,18 +42,27 @@ const AddNewLesson = (): JSX.Element => {
                                 <Input className={AddNewLessonCss.text_right_input} />
                             </Col>
                         </Row>
+                        <div className={AddNewLessonCss.background}>
                         <Row className={AddNewLessonCss.ant_row_text}>
                             <Col className={AddNewLessonCss.text_left} span={8}>Thời lượng</Col>
                             <Col className={AddNewLessonCss.text_right} span={16}>
                                 <div className={AddNewLessonCss.text_right_select_time_box1}>
-                                    <Select className={AddNewLessonCss.text_right_select_time} defaultValue="1" onChange={handleChange}>
+                                    <Select 
+                                    className={AddNewLessonCss.text_right_select_time} defaultValue="1" 
+                                    onChange={handleChange}
+                                    suffixIcon={<IconArrow />}
+                                    >
                                         <Option value="1">0</Option>
                                         <Option value="2">1</Option>
                                     </Select>
                                     <p>Giờ</p>
                                 </div>
                                 <div className={AddNewLessonCss.text_right_select_time_box2}>
-                                    <Select className={AddNewLessonCss.text_right_select_time} defaultValue="1" onChange={handleChange}>
+                                    <Select 
+                                    className={AddNewLessonCss.text_right_select_time} defaultValue="1" 
+                                    onChange={handleChange}
+                                    suffixIcon={<IconArrow />}
+                                    >
                                         <Option value="1">00</Option>
                                         <Option value="2">01</Option>
                                     </Select>
@@ -63,8 +73,18 @@ const AddNewLesson = (): JSX.Element => {
                         <Row className={AddNewLessonCss.ant_row_text}>
                             <Col className={AddNewLessonCss.text_left} span={8}>Ngày bắt đầu</Col>
                             <Col className={AddNewLessonCss.text_right} span={16}>
-                                <DatePicker className={AddNewLessonCss.text_right_datepicker} placeholder="dd/mm/yy" />
-                                <Select className={AddNewLessonCss.text_right_select_date} defaultValue="1" onChange={handleChange}>
+                                <DatePicker 
+                                className={AddNewLessonCss.text_right_datepicker} 
+                                placeholder="dd/mm/yy" 
+                                suffixIcon={<IconDate />}
+                                />
+                                <Select 
+                                className={AddNewLessonCss.text_right_select_date} 
+                                defaultValue="1" 
+                                onChange={handleChange}
+                                suffixIcon={<IconArrow />}
+                                
+                                >
                                     <Option value="1">00</Option>
                                     <Option value="2">01</Option>
                                 </Select>
@@ -73,10 +93,15 @@ const AddNewLesson = (): JSX.Element => {
                         <Row className={AddNewLessonCss.ant_row_text}>
                             <Col className={AddNewLessonCss.text_left} span={8}>Ngày kết thúc</Col>
                             <Col className={AddNewLessonCss.text_right} span={16}>
-                                <DatePicker className={AddNewLessonCss.text_right_datepicker} placeholder="dd/mm/yy" />
+                                <DatePicker 
+                                className={AddNewLessonCss.text_right_datepicker} 
+                                placeholder="dd/mm/yy" 
+                                suffixIcon={<IconDateG />}
+                                />
                                 <Input className={AddNewLessonCss.text_right_input_time} placeholder="14:45" />
                             </Col>
                         </Row>
+                        </div>
                         <Row className={AddNewLessonCss.ant_row_text}>
                             <Col className={AddNewLessonCss.text_left} span={8}>Bảo mật</Col>
                             <Col className={AddNewLessonCss.text_right} span={16}>

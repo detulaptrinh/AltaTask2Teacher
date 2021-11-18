@@ -87,6 +87,7 @@ const Class1 = (): JSX.Element => {
     return (
         <Fragment>
             <>
+            <div className="class1">
                 <Row>
                     <Col span={12} className={`mt-6 ml-9`}>
                         <div className="flex">
@@ -94,7 +95,7 @@ const Class1 = (): JSX.Element => {
                                 <div className="flex flex-col items-start">
                                     <label className={`font-bold ${Setting.label_group}`}>Chọn tổ</label>
                                     <Select
-                                        className="select_group flex items-center"
+                                        className="select_group flex items-center mt-3"
                                         defaultValue="THCS - Tổ Văn Sử Địa"
                                         style={{ width: 238 }}
                                         suffixIcon={<IconArrow />}
@@ -130,7 +131,7 @@ const Class1 = (): JSX.Element => {
                     </Col>
                 </Row>
 
-                    <Col span={24} className="ml-9 mt-7">
+                    <Col span={24} className="ml-9 mt-6">
                         <Table
                             className={`table__class text-center font-normal`}
                             columns={columns}
@@ -164,6 +165,7 @@ const Class1 = (): JSX.Element => {
                         </div>
                     </Col>
                 </Row>
+                </div>
             </>
         </Fragment>
     );
