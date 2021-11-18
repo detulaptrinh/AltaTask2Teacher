@@ -13,6 +13,7 @@
   position: absolute;
   top: 16.1rem;
   left: 17.6rem;
+  height: 30rem;
 }
 
 .tab_Group_tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
@@ -43,6 +44,7 @@
   > .ant-tabs-nav.ant-tabs-tab
   + .ant-tabs-tab {
   margin-left: 2.4rem;
+
 }
 .tab_Group_tabs .ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab,
 .ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab {
@@ -74,4 +76,7 @@
   background: #ffffff;
   box-shadow: 0.4rem 0.4rem 2.5rem 0.4rem rgba(154, 202, 245, 0.25);
   border-radius: 0rem 1.6rem 1.6rem 1.6rem;
+}
+.tab_Group_tabs .ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap {
+  height: 10rem;
 }

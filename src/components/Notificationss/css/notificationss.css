@@ -9,10 +9,10 @@
 /* TABS */
 .tab_Group_Notifications {
   position: absolute;
-  width: 516px;
-  height: 48px;
-  left: 217px;
-  top: 161px;
+  width: 51.6rem;
+  height: 4.8rem;
+  left: 21.7rem;
+  top: 16.1rem;
 }
 .tab_Group_Notifications .ant-tabs > .ant-tabs-nav .ant-tabs-nav-list,
 .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-list {
@@ -21,7 +21,7 @@
   width: 51.6rem;
   height: 4.8rem;
   background: #f2f2f2;
-  border-radius: 28px;
+  border-radius: 2.8rem;
 }
 .tab_Group_tabs_Notifications
   .ant-tabs-tab.ant-tabs-tab-active
@@ -40,10 +40,10 @@
   > .ant-tabs-nav
   .ant-tabs-tab-active,
 .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab-active {
-  width: 500px;
-  height: 36px;
+  width: 50rem;
+  height: 3.6rem;
   background: #373839;
-  border-radius: 28px;
+  border-radius: 2.8rem;
 }
 .tab_Group_tabs_Notifications
   .ant-tabs-card.ant-tabs-top
@@ -63,13 +63,13 @@
   > .ant-tabs-nav
   .ant-tabs-tab,
 .ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab {
-  border-radius: 28px;
+  border-radius: 2.8rem;
   border: 0.1rem solid;
   border: 0rem;
-  width: 250px;
-  height: 36px;
-  left: 8px;
-  top: 6px;
+  width: 25rem;
+  height: 3.6rem;
+  left: 0.8rem;
+  top: 0.6rem;
 }
 .tab_Group_tabs_Notifications .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab,
 .tab_Group_tabs_Notifications
@@ -88,10 +88,10 @@
 
 .tab_Group_tabs_Notifications .ant-tabs-tabpane {
   position: fixed;
-  width: 1640px;
-  height: 800px;
-  left: 217px;
-  top: 237px;
+  width: 164rem;
+  height: 80rem;
+  left: 21.7rem;
+  top: 23.7rem;
   background: #ffffff;
   box-shadow: 0.4rem 0.4rem 2.5rem 0.4rem rgba(154, 202, 245, 0.25);
   border-radius: 1.6rem;
@@ -99,38 +99,38 @@
 /* MODAL IN TABLE */
 .modal_Notifications .ant-modal-title {
   font-family: "Mulish";
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
   letter-spacing: 0.015em;
   color: #ffffff;
 }
 .modal_Notifications .ant-modal-close-x {
   font-family: "Mulish";
   display: block;
-  width: 56px;
-  height: 56px;
+  width: 5.6rem;
+  height: 5.6rem;
   font-size: 2rem;
   font-style: normal;
   font-weight: bold;
-  line-height: 56px;
+  line-height: 5.6rem;
   text-align: center;
   text-transform: none;
   text-rendering: auto;
   color: white;
 }
 .modal_Notifications .ant-modal-header {
-  padding: 16px 24px;
+  padding: 1.6rem 2.4rem;
   color: rgba(0, 0, 0, 0.85);
   background-color: #373839;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 0.1rem solid #f0f0f0;
   border-radius: 2rem 2rem 0 0;
 }
 .modal_Notifications.modal_Notifications .ant-modal-footer {
   display: none;
 }
 .modal_Notifications.modal_Notifications .ant-modal-content {
-  width: 588px;
-  height: 722px;
+  width: 58.8rem;
+  height: 72.2rem;
   background: #ffffff;
   border-radius: 2rem 2rem 0 0;
   margin-top: 32rem;

@@ -161,12 +161,12 @@
   display: flex;
 }
 .pagination-text-Ungraded-Test .ant-input-number {
-  width: 48px;
-  height: 32px;
+  width: 4.8rem;
+  height: 3.2rem;
   background-color: transparent;
-  border: 1px solid #ff7506;
+  border: 0.1rem solid #ff7506;
   box-sizing: border-box;
-  border-radius: 4px;
+  border-radius: 0.4rem;
 }
 
 .pagination-text-view-Ungraded-Test {
