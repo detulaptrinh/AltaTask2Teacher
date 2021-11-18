@@ -40,20 +40,24 @@
 }
 
 .new_test_row {
-    margin-top: 2rem;
-    margin-left: 30rem;
-    margin-right: 30rem;
+    /* margin-top: 2rem; */
+    /* margin-left: 30rem; */
+    /* margin-right: 30rem; */
+    
 }
 
 .ant_row_text {
     height: 4rem;
     line-height: 4rem;
     margin: 1.6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text_left {
     max-width: 15rem;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: bold;
     font-size: 1.6rem;
@@ -273,4 +277,8 @@
     margin-top: 1rem;
     margin-left: -4rem;
     position: absolute;
+}
+.background{
+    background: #F0F3F6;
+    
 }
