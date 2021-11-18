@@ -43,14 +43,14 @@ export default class Menu extends Component {
                         <li>
                             <p>Bài kiểm tra</p>
                             <ul className="sub-menu-1">
-                                <li><Link to="">Danh sách bài kiểm tra</Link></li>
+                                <li><Link to="/testlist">Danh sách bài kiểm tra</Link></li>
                                 <li><Link to="">Thêm bài kiểm tra mới</Link></li>
                                 <li><Link to="">Nhập điểm</Link></li>
                                 <li><Link to="">Bảng điểm</Link></li>
                             </ul>
                         </li>
                         <li><p><Link to="">Lịch thi</Link></p></li>
-                        <li><p><Link to="">Thông báo</Link></p></li>
+                        <li><p><Link to="/notifications">Thông báo</Link></p></li>
                         <li><p><Link to="/helpTeacher">Trợ giúp</Link></p></li>
                     </ul>
                 </div>

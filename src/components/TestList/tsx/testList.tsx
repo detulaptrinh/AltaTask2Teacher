@@ -21,7 +21,7 @@ export default class TestList extends Component {
                                 Bài kiểm tra
                             </Breadcrumb.Item>
                             <Breadcrumb.Item className={TestListCss.title_Right}>
-                                Danh sách bìa kiểm tra
+                                Danh sách bài kiểm tra
                             </Breadcrumb.Item>
                         </Breadcrumb>
                     </div>

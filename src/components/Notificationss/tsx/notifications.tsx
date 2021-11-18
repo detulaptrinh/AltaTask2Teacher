@@ -28,15 +28,8 @@ const Notifications = (): JSX.Element => {
     
     return (
         <>
-            <div>
-                <Breadcrumb separator=">" className="separator_Breadcrumb_Notifications">
-                    <Breadcrumb.Item className={NotificationsCss.title_Left}>
-                        Bài kiểm tra
-                    </Breadcrumb.Item>
-                    <Breadcrumb.Item className={NotificationsCss.title_Right}>
-                        Danh sách bìa kiểm tra
-                    </Breadcrumb.Item>
-                </Breadcrumb>
+            <div className={NotificationsCss.title}>
+                Thông báo
             </div>
             <div>
                 <div className="tab_Group_Notifications">
