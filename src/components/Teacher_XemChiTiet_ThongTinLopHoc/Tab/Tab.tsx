@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import { Link } from "react-router-dom";
 import './Tab.css';
 
 export default class Tab extends Component {
@@ -7,10 +7,10 @@ export default class Tab extends Component {
         return (
             <div className="tab-5">
                 <div className="tab-left">
-                    <a>Thông tin lớp học</a>
+                    <Link to="/class">Thông tin lớp học</Link>
                 </div>
                 <div className="tab-right">
-                    <a>Hỏi đáp Q & A</a>
+                    <Link to="/chat">Hỏi đáp Q & A</Link>
                 </div>
             </div>
         )

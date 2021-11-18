@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import AddNewLessonCss from './AddNewLessonCss.module.css';
 import './AddNewLesson.css';
-import { Row, Col, Input, Radio, Select, Checkbox, DatePicker, Space } from 'antd';
+import { Link } from "react-router-dom";
+import { Row, Col, Input, Select, Checkbox, DatePicker} from 'antd';
 import { IconVisibility } from "../../assets/svg/icon";
 import { IconArrow, IconDate, IconDateG } from "../../assets/components/index"
 
@@ -153,9 +154,11 @@ const AddNewLesson = (): JSX.Element => {
                 <button className={AddNewLessonCss.button_new_test_cancel}>
                     Hủy
                 </button>
+                <Link to="/settingclass">
                 <button className={AddNewLessonCss.button_new_test_save}>
                     Lưu
                 </button>
+                </Link>
             </div>
 
         </div >
