@@ -1,12 +1,12 @@
 import React, { useState, useEffect} from "react";
 import "./chatBody.css";
 import ChatList from "../../QuestionAndAnswer/chatList/ChatList";
-import ChatContent from "../../QuestionAndAnswer/chatContent/ChatContent";
+import ChatContent from "./../../QuestionAndAnswer/chatContent/ChatContent";
 import { Tabs } from 'antd';
 import ChatListTopic from "../chatList/ChatListTopic";
 import BreadcrumbQA from "../breadcrumbQ&A/breadcrumb"
 import SwitchtabQA from "../switchtabsQ&A/switchtab"
-import Styles from "./chatBody.module.css"
+import Styles from "./chatBody.module.css";
 import { Modal, Form, Button, Input, TimePicker, DatePicker, Upload} from "antd";
 import TextArea from "rc-textarea";
 

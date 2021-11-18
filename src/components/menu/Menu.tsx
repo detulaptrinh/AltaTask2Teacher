@@ -36,7 +36,7 @@ export default class Menu extends Component {
                             <p>Quản lý lớp học</p>
                             <ul className="sub-menu-1">
                                 <li><Link to="/settingclass">Danh sách lớp học</Link></li>
-                                <li><Link to="">Thêm buổi học mới</Link></li>
+                                <li><Link to="/addnewlesson">Thêm buổi học mới</Link></li>
                                 <li><Link to="/join">Tham gia vào lớp học</Link></li>
                             </ul>
                         </li>
@@ -44,13 +44,13 @@ export default class Menu extends Component {
                             <p>Bài kiểm tra</p>
                             <ul className="sub-menu-1">
                                 <li><Link to="/testlist">Danh sách bài kiểm tra</Link></li>
-                                <li><Link to="">Thêm bài kiểm tra mới</Link></li>
+                                <li><Link to="/ewtestmanager">Thêm bài kiểm tra mới</Link></li>
                                 <li><Link to="">Nhập điểm</Link></li>
                                 <li><Link to="">Bảng điểm</Link></li>
                             </ul>
                         </li>
-                        <li><p><Link to="">Lịch thi</Link></p></li>
-                        <li><p><Link to="/notifications">Thông báo</Link></p></li>
+                        <li><p><Link to="/testschedulemonth">Lịch thi</Link></p></li>
+                        <li><p><Link to="">Thông báo</Link></p></li>
                         <li><p><Link to="/helpTeacher">Trợ giúp</Link></p></li>
                     </ul>
                 </div>

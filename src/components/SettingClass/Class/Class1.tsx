@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { Row, Col, Table, Input, Select, DatePicker, Button, Pagination, InputNumber } from "antd";
+import { Link } from "react-router-dom";
 import Class from "../../../data/Class1.json";
 import { IconInfo } from "../../../assets/svg/icon";
 import IconArrow from "../../../assets/components/IconArrow"
@@ -62,9 +63,11 @@ const Class1 = (): JSX.Element => {
             title: "",
             render: () => (
                 <>
+                <Link to="/class">
                     <button className={Setting.btn__img} onClick={showModalDel}>
                         <img src={IconInfo} alt="IconEdit" />
                     </button>
+                </Link>
                 </>
 
 
