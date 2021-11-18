@@ -1,5 +1,5 @@
 .table_user_notice .ant-table-pagination.ant-pagination {
-  margin: 16px 0;
+  margin: 1.6rem 0;
 }
 .table_user_notice .ant-table-pagination-right {
   justify-content: center;
@@ -10,15 +10,15 @@
 .table_user_notice .ant-table-pagination {
   display: flex;
   flex-wrap: wrap;
-  grid-row-gap: 8px;
-  row-gap: 8px;
+  grid-row-gap: 0.8rem;
+  row-gap: 0.8rem;
 }
 .table_user_notice .ant-pagination {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
+  font-size: 1.4rem;
   font-variant: tabular-nums;
   line-height: 1.5715;
   list-style: none;
@@ -126,7 +126,7 @@
 .table_user_notice.ant-table-tbody > tr > td,
 .table_user_notice .ant-table tfoot > tr > th,
 .table_user_notice .ant-table tfoot > tr > td {
-  width: 1604px;
+  width: 160.4rem;
   height: 5.8rem;
   overflow-wrap: normal;
 }
