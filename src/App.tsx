@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from "react-router-dom";
 // componet menu
-import Menu from './components/Menu/Menu';
+import Menu from './components/menu/Menu';
 import TopBarUser from './components/top_bar_user/TopBarUser';
 import ChatBody from './components/QuestionAndAnswer/chatBody/ChatBody';
 import ThongTinLopHoc from './components/Teacher_XemChiTiet_ThongTinLopHoc/ThongTinLopHoc';
